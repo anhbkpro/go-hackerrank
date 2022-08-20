@@ -12,4 +12,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Extra Long Factorials - [Question](https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=true) | [Source Code](./extra-long-factorials/main.go)
 - Beautiful Days at the Movies - [Question](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem?isFullScreen=true) | [Source Code](./beautiful-days-at-the-movies/main.go)
 - Viral Advertising - [Question](https://www.hackerrank.com/challenges/strange-advertising/problem?isFullScreen=true) | [Source Code](./strange-advertising/main.go)
--
+- Save the Prisoner! - [Question](https://www.hackerrank.com/challenges/save-the-prisoner/problem?isFullScreen=true) | [Source Code](./save-the-prisoner/main.go)
