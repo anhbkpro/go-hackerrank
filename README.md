@@ -16,3 +16,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Find Digits - [Question](https://www.hackerrank.com/challenges/find-digits/problem?isFullScreen=true) | [Source Code](./find-digits/main.go)
 - The Time in Words - [Question](https://www.hackerrank.com/challenges/the-time-in-words/problem?isFullScreen=true) | [Source Code](./the-time-in-words/main.go)
 - Larry's Array - [Question](https://www.hackerrank.com/challenges/larrys-array/problem?isFullScreen=true) | [Source Code](./larrys-array/main.go)
+- Time Conversion - [Question](https://www.hackerrank.com/challenges/time-conversion/problem?isFullScreen=true) | [Source Code](./time-conversion/main.go)
