@@ -13,3 +13,6 @@ Solutions of all the questions from Hackerrank in Golang.
 - Beautiful Days at the Movies - [Question](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem?isFullScreen=true) | [Source Code](./beautiful-days-at-the-movies/main.go)
 - Viral Advertising - [Question](https://www.hackerrank.com/challenges/strange-advertising/problem?isFullScreen=true) | [Source Code](./strange-advertising/main.go)
 - Save the Prisoner! - [Question](https://www.hackerrank.com/challenges/save-the-prisoner/problem?isFullScreen=true) | [Source Code](./save-the-prisoner/main.go)
+- Find Digits - [Question](https://www.hackerrank.com/challenges/find-digits/problem?isFullScreen=true) | [Source Code](./find-digits/main.go)
+- The Time in Words - [Question](https://www.hackerrank.com/challenges/the-time-in-words/problem?isFullScreen=true) | [Source Code](./the-time-in-words/main.go)
+- Larry's Array - [Question](https://www.hackerrank.com/challenges/larrys-array/problem?isFullScreen=true) | [Source Code](./larrys-array/main.go)
