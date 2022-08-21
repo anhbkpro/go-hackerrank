@@ -6,6 +6,7 @@ import (
 )
 
 /*
+ * [Medium]
  * Complete the 'extraLongFactorials' function below.
  *
  * The function accepts INTEGER n as parameter.

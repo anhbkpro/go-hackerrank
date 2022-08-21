@@ -10,6 +10,7 @@ import (
 )
 
 /*
+ * [Medium]
  * Complete the 'timeInWords' function below.
  *
  * The function is expected to return a STRING.
