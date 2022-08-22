@@ -18,3 +18,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Larry's Array ** - [Question](https://www.hackerrank.com/challenges/larrys-array/problem?isFullScreen=true) | [Source Code](./larrys-array/main.go)
 - Time Conversion * - [Question](https://www.hackerrank.com/challenges/time-conversion/problem?isFullScreen=true) | [Source Code](./time-conversion/main.go)
 - Diagonal Difference * - [Question](https://www.hackerrank.com/challenges/diagonal-difference/problem) | [Source Code](./diagonal-difference/main.go)
+- Encryption ** - [Question](https://www.hackerrank.com/challenges/encryption/problem?isFullScreen=true) | [Source Code](./encryption/main.go)
