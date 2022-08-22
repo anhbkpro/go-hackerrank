@@ -18,7 +18,7 @@ import (
 
 func timeConversion(s string) string {
 	isAM := isAM(s)
-	hour := hour(s)
+	hour := parseHour(s)
 	fmt.Println(isAM)
 	if isAM {
 		if hour == 12 {
@@ -33,7 +33,7 @@ func timeConversion(s string) string {
 	}
 }
 
-func hour(s string) int32 {
+func parseHour(s string) int32 {
 	hour, err := strconv.Atoi(s[:2])
 	if err != nil {
 		return 0
