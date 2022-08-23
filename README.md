@@ -22,4 +22,5 @@ Solutions of all the questions from Hackerrank in Golang.
 - Forming a Magic Square ** - [Question](https://www.hackerrank.com/challenges/magic-square-forming/problem?isFullScreen=true) | [Source Code](./magic-square-forming/main.go)
 - Designer PDF Viewer ** - [Question](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem?isFullScreen=true) | [Source Code](./designer-pdf-viewer/main.go)
 - Utopian Tree ** - [Question](https://www.hackerrank.com/challenges/utopian-tree/problem?isFullScreen=true) | [Source Code](./utopian-tree/main.go)
+- Angry Professor * - [Question](https://www.hackerrank.com/challenges/angry-professor/problem?isFullScreen=true) | [Source Code](./angry-professor/main.go)
  
