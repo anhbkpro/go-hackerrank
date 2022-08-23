@@ -19,3 +19,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Time Conversion * - [Question](https://www.hackerrank.com/challenges/time-conversion/problem?isFullScreen=true) | [Source Code](./time-conversion/main.go)
 - Diagonal Difference * - [Question](https://www.hackerrank.com/challenges/diagonal-difference/problem) | [Source Code](./diagonal-difference/main.go)
 - Encryption ** - [Question](https://www.hackerrank.com/challenges/encryption/problem?isFullScreen=true) | [Source Code](./encryption/main.go)
+- Forming a Magic Square ** - [Question](https://www.hackerrank.com/challenges/magic-square-forming/problem?isFullScreen=true) | [Source Code](./magic-square-forming/main.go)
