@@ -27,3 +27,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Sherlock and Squares * - [Question](https://www.hackerrank.com/challenges/sherlock-and-squares/problem?isFullScreen=true) | [Source Code](./sherlock-and-squares/main.go)
 - The Grid Search ** - [Question](https://www.hackerrank.com/challenges/the-grid-search/problem?isFullScreen=true) | [Source Code](./the-grid-search/main.go)
 - Happy Ladybugs * - [Question](https://www.hackerrank.com/challenges/happy-ladybugs/problem?isFullScreen=true) | [Source Code](./happy-ladybugs/main.go)
+- Game of Thrones - I * - [Question](https://www.hackerrank.com/challenges/game-of-thrones/problem?isFullScreen=true) | [Source Code](./game-of-thrones/main.go)
