@@ -29,3 +29,5 @@ Solutions of all the questions from Hackerrank in Golang.
 - Happy Ladybugs * - [Question](https://www.hackerrank.com/challenges/happy-ladybugs/problem?isFullScreen=true) | [Source Code](./happy-ladybugs/main.go)
 - Game of Thrones - I * - [Question](https://www.hackerrank.com/challenges/game-of-thrones/problem?isFullScreen=true) | [Source Code](./game-of-thrones/main.go)
 - HackerRank in a String! * - [Question](https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem?isFullScreen=true) | [Source Code](./hackerrank-in-a-string/main.go)
+- Sequence Equation * - [Question](https://www.hackerrank.com/challenges/permutation-equation/problem?isFullScreen=true) | [Source Code](./permutation-equation/main.go)
+
