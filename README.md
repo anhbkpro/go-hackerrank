@@ -33,3 +33,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Jumping on the Clouds: Revisited * - [Question](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem?isFullScreen=true) | [Source Code](./jumping-on-the-clouds-revisited/main.go)
 - Library Fine * - [Question](https://www.hackerrank.com/challenges/library-fine/problem?isFullScreen=true) | [Source Code](./library-fine/main.go)
 - Cut the sticks * - [Question](https://www.hackerrank.com/challenges/cut-the-sticks/problem?isFullScreen=true) | [Source Code](./cut-the-sticks/main.go)
+- Two Characters * - [Question](https://www.hackerrank.com/challenges/two-characters/problem?isFullScreen=true) | [Source Code](./two-characters/main.go)
