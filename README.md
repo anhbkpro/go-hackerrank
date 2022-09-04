@@ -32,3 +32,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Sequence Equation * - [Question](https://www.hackerrank.com/challenges/permutation-equation/problem?isFullScreen=true) | [Source Code](./permutation-equation/main.go)
 - Jumping on the Clouds: Revisited * - [Question](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem?isFullScreen=true) | [Source Code](./jumping-on-the-clouds-revisited/main.go)
 - Library Fine * - [Question](https://www.hackerrank.com/challenges/library-fine/problem?isFullScreen=true) | [Source Code](./library-fine/main.go)
+- Cut the sticks * - [Question](https://www.hackerrank.com/challenges/cut-the-sticks/problem?isFullScreen=true) | [Source Code](./cut-the-sticks/main.go)
