@@ -31,3 +31,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - HackerRank in a String! * - [Question](https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem?isFullScreen=true) | [Source Code](./hackerrank-in-a-string/main.go)
 - Sequence Equation * - [Question](https://www.hackerrank.com/challenges/permutation-equation/problem?isFullScreen=true) | [Source Code](./permutation-equation/main.go)
 - Jumping on the Clouds: Revisited * - [Question](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem?isFullScreen=true) | [Source Code](./jumping-on-the-clouds-revisited/main.go)
+- Library Fine * - [Question](https://www.hackerrank.com/challenges/library-fine/problem?isFullScreen=true) | [Source Code](./library-fine/main.go)
