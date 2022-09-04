@@ -30,4 +30,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Game of Thrones - I * - [Question](https://www.hackerrank.com/challenges/game-of-thrones/problem?isFullScreen=true) | [Source Code](./game-of-thrones/main.go)
 - HackerRank in a String! * - [Question](https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem?isFullScreen=true) | [Source Code](./hackerrank-in-a-string/main.go)
 - Sequence Equation * - [Question](https://www.hackerrank.com/challenges/permutation-equation/problem?isFullScreen=true) | [Source Code](./permutation-equation/main.go)
-
+- Jumping on the Clouds: Revisited * - [Question](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem?isFullScreen=true) | [Source Code](./jumping-on-the-clouds-revisited/main.go)
