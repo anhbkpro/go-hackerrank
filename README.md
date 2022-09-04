@@ -34,3 +34,5 @@ Solutions of all the questions from Hackerrank in Golang.
 - Library Fine * - [Question](https://www.hackerrank.com/challenges/library-fine/problem?isFullScreen=true) | [Source Code](./library-fine/main.go)
 - Cut the sticks * - [Question](https://www.hackerrank.com/challenges/cut-the-sticks/problem?isFullScreen=true) | [Source Code](./cut-the-sticks/main.go)
 - Two Characters * - [Question](https://www.hackerrank.com/challenges/two-characters/problem?isFullScreen=true) | [Source Code](./two-characters/main.go)
+- Weighted Uniform Strings * - [Question](https://www.hackerrank.com/challenges/weighted-uniform-string/problem?isFullScreen=true) | [Source Code](./weighted-uniform-string/main.go)
+- Balanced Brackets ** - [Question](https://www.hackerrank.com/challenges/balanced-brackets/problem?isFullScreen=true) | [Source Code](./balanced-brackets/main.go)
