@@ -11,13 +11,13 @@ import (
 
 // Complete the jumpingOnClouds function below.
 func jumpingOnClouds(c []int32, k int32) int32 {
-	p := int32(0)
+	position := int32(0)
 	energy := int32(0)
 
-	for energy == 0 || p != 0 {
-		p += k
-		p %= int32(len(c))
-		if c[p] == 0 {
+	for energy == 0 || position != 0 {
+		position += k
+		position %= int32(len(c))
+		if c[position] == 0 {
 			energy += 1
 		} else {
 			energy += 3
