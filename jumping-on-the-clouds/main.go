@@ -16,7 +16,7 @@ import (
  * The function accepts INTEGER_ARRAY c as parameter.
  */
 
-func jumpingOnClouds(c []int32) int32 {
+func JumpingOnClouds(c []int32) int32 {
 	jumps := int32(0)
 	i := 0
 	for {
@@ -51,7 +51,7 @@ func main() {
 		c = append(c, cItem)
 	}
 
-	result := jumpingOnClouds(c)
+	result := JumpingOnClouds(c)
 
 	fmt.Fprintf(writer, "%d\n", result)
 
