@@ -36,3 +36,6 @@ Solutions of all the questions from Hackerrank in Golang.
 - Two Characters * - [Question](https://www.hackerrank.com/challenges/two-characters/problem?isFullScreen=true) | [Source Code](./two-characters/main.go)
 - Weighted Uniform Strings * - [Question](https://www.hackerrank.com/challenges/weighted-uniform-string/problem?isFullScreen=true) | [Source Code](./weighted-uniform-string/main.go)
 - Balanced Brackets ** - [Question](https://www.hackerrank.com/challenges/balanced-brackets/problem?isFullScreen=true) | [Source Code](./balanced-brackets/main.go)
+- Jumping on the Clouds * - [Question](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true) | [Source Code](./jumping-on-the-clouds/main.go)
+
+
