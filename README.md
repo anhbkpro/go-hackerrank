@@ -36,6 +36,7 @@ Solutions of all the questions from Hackerrank in Golang.
 - Two Characters * - [Question](https://www.hackerrank.com/challenges/two-characters/problem?isFullScreen=true) | [Source Code](./two-characters/main.go)
 - Weighted Uniform Strings * - [Question](https://www.hackerrank.com/challenges/weighted-uniform-string/problem?isFullScreen=true) | [Source Code](./weighted-uniform-string/main.go)
 - Balanced Brackets ** - [Question](https://www.hackerrank.com/challenges/balanced-brackets/problem?isFullScreen=true) | [Source Code](./balanced-brackets/main.go)
-- Jumping on the Clouds * - [Question](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true) | [Source Code](./jumping-on-the-clouds/main.go)
-
-
+- Jumping on the Clouds * - [Question](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true) | [Source Code](./jumping-on-the-clouds/jumping_on_clouds.go)
+- Equalize the Array * - [Question](https://www.hackerrank.com/challenges/equality-in-a-array/problem?isFullScreen=true) | [Source Code](./equality-in-a-array/equality_in_a_array.go)
+- Beautiful Triplets * - [Question](https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true) | [Source Code](./beautiful-triplets/beautiful_triplets.go)
+- Repeated String * - [Question](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true) | [Source Code](./repeated-string/repeated_string.go)
