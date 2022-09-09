@@ -19,14 +19,6 @@ import (
  */
 
 func RepeatedString(s string, n int64) int64 {
-	if len(s) == 1 {
-		if s == "a" {
-			return n
-		}
-
-		return 0
-	}
-
 	m := map[int64]int64{}
 	total := int64(0)
 
@@ -36,6 +28,7 @@ func RepeatedString(s string, n int64) int64 {
 		}
 		m[int64(i)] = total
 	}
+
 	return (n/int64(len(s)))*total + m[n%int64(len(s))-1]
 }
 
