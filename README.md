@@ -40,3 +40,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Equalize the Array * - [Question](https://www.hackerrank.com/challenges/equality-in-a-array/problem?isFullScreen=true) | [Source Code](./equality-in-a-array/equality_in_a_array.go)
 - Beautiful Triplets * - [Question](https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true) | [Source Code](./beautiful-triplets/beautiful_triplets.go)
 - Halloween Sale * - [Question](https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=true) | [Source Code](./halloween-sale/halloween_sale.go)
+- Lisa's Workbook * - [Question](https://www.hackerrank.com/challenges/lisa-workbook/problem?isFullScreen=true) | [Source Code](./lisa-workbook/workbook.go)
