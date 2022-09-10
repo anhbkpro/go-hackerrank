@@ -41,3 +41,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Beautiful Triplets * - [Question](https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true) | [Source Code](./beautiful-triplets/beautiful_triplets.go)
 - Halloween Sale * - [Question](https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=true) | [Source Code](./halloween-sale/halloween_sale.go)
 - Lisa's Workbook * - [Question](https://www.hackerrank.com/challenges/lisa-workbook/problem?isFullScreen=true) | [Source Code](./lisa-workbook/workbook.go)
+- Flatland Space Stations * - [Question](https://www.hackerrank.com/challenges/flatland-space-stations/problem?isFullScreen=true) | [Source Code](./flatland-space-stations/flatland-space-stations.go)
