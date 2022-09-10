@@ -39,4 +39,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Jumping on the Clouds * - [Question](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true) | [Source Code](./jumping-on-the-clouds/jumping_on_clouds.go)
 - Equalize the Array * - [Question](https://www.hackerrank.com/challenges/equality-in-a-array/problem?isFullScreen=true) | [Source Code](./equality-in-a-array/equality_in_a_array.go)
 - Beautiful Triplets * - [Question](https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true) | [Source Code](./beautiful-triplets/beautiful_triplets.go)
-- Repeated String * - [Question](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true) | [Source Code](./repeated-string/repeated_string.go)
+- Halloween Sale * - [Question](https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=true) | [Source Code](./halloween-sale/halloween_sale.go)
