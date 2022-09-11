@@ -43,3 +43,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Lisa's Workbook * - [Question](https://www.hackerrank.com/challenges/lisa-workbook/problem?isFullScreen=true) | [Source Code](./lisa-workbook/workbook.go)
 - Flatland Space Stations * - [Question](https://www.hackerrank.com/challenges/flatland-space-stations/problem?isFullScreen=true) | [Source Code](./flatland-space-stations/flatland-space-stations.go)
 - Chocolate Feast * - [Question](https://www.hackerrank.com/challenges/chocolate-feast/problem?isFullScreen=true) | [Source Code](./chocolate-feast/chocolate-feast.go)
+- Service Lane * - [Question](https://www.hackerrank.com/challenges/service-lane/problem?isFullScreen=true) | [Source Code](./service-lane/service-lane.go)
