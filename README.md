@@ -44,3 +44,5 @@ Solutions of all the questions from Hackerrank in Golang.
 - Flatland Space Stations * - [Question](https://www.hackerrank.com/challenges/flatland-space-stations/problem?isFullScreen=true) | [Source Code](./flatland-space-stations/flatland-space-stations.go)
 - Chocolate Feast * - [Question](https://www.hackerrank.com/challenges/chocolate-feast/problem?isFullScreen=true) | [Source Code](./chocolate-feast/chocolate-feast.go)
 - Service Lane * - [Question](https://www.hackerrank.com/challenges/service-lane/problem?isFullScreen=true) | [Source Code](./service-lane/service-lane.go)
+- Cavity Map * - [Question](https://www.hackerrank.com/challenges/cavity-map/problem?isFullScreen=true) | [Source Code](./cavity-map/cavity-map.go)
+- 
