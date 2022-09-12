@@ -45,4 +45,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Chocolate Feast * - [Question](https://www.hackerrank.com/challenges/chocolate-feast/problem?isFullScreen=true) | [Source Code](./chocolate-feast/chocolate-feast.go)
 - Service Lane * - [Question](https://www.hackerrank.com/challenges/service-lane/problem?isFullScreen=true) | [Source Code](./service-lane/service-lane.go)
 - Cavity Map * - [Question](https://www.hackerrank.com/challenges/cavity-map/problem?isFullScreen=true) | [Source Code](./cavity-map/cavity-map.go)
-- 
+- Strange Counter * - [Question](https://www.hackerrank.com/challenges/strange-code/problem?isFullScreen=true) | [Source Code](./strange-code/strange-code.go)
