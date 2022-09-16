@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-	"math"
 	"os"
 	"strconv"
 	"strings"
@@ -19,23 +18,14 @@ import (
 
 func CountingSort(arr []int32) []int32 {
 	m := make(map[int32]int32)
-	min := int32(math.MaxInt32)
-	max := int32(0)
 	for _, v := range arr {
-		if max < v {
-			max = v
-		}
-		if min > v {
-			min = v
-		}
 		if _, ok := m[v]; ok {
 			m[v]++
 		} else {
 			m[v] = 1
 		}
 	}
-	fmt.Println("max =", max)
-	fmt.Println("min =", min)
+
 	var result []int32
 	for i := int32(0); i < 100; i++ {
 		if v, ok := m[i]; ok {
