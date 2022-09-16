@@ -1,4 +1,4 @@
-package one_month_preparation_kit
+package lonely_integer
 
 import (
 	"github.com/stretchr/testify/assert"
