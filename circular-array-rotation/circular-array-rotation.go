@@ -22,8 +22,10 @@ import (
 func CircularArrayRotation(a []int32, k int32, queries []int32) []int32 {
 	var result []int32
 	var rotatedArray []int32
-	rotatedArray = append(rotatedArray, a[int32(len(a))-(k%int32(len(a))):]...)
-	rotatedArray = append(rotatedArray, a[:int32(len(a))-(k%int32(len(a)))]...)
+	l := int32(len(a))
+	newStartIndex := l - (k % l)
+	rotatedArray = append(rotatedArray, a[newStartIndex:]...)
+	rotatedArray = append(rotatedArray, a[:newStartIndex]...)
 	for _, query := range queries {
 		result = append(result, rotatedArray[query])
 	}
