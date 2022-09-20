@@ -48,3 +48,5 @@ Solutions of all the questions from Hackerrank in Golang.
 - Strange Counter * - [Question](https://www.hackerrank.com/challenges/strange-code/problem?isFullScreen=true) | [Source Code](./strange-code/strange-code.go)
 - String Construction * - [Question](https://www.hackerrank.com/challenges/string-construction/problem?isFullScreen=true) | [Source Code](./string-construction/string-construction.go)
 - Common Child ** - [Question](https://www.hackerrank.com/challenges/common-child/problem?isFullScreen=true) | [Source Code](./common-child/common-child.go)
+- Circular Array Rotation * - [Question](https://www.hackerrank.com/challenges/circular-array-rotation/problem?isFullScreen=true) | [Source Code](./circular-array-rotation/circular-array-rotation.go)
+- Separate the Numbers * - [Question](https://www.hackerrank.com/challenges/separate-the-numbers/problem?isFullScreen=true) | [Source Code](./separate-the-numbers/separate-the-numbers.go)
