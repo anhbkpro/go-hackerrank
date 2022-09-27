@@ -51,3 +51,4 @@ Solutions of all the questions from Hackerrank in Golang.
 - Circular Array Rotation * - [Question](https://www.hackerrank.com/challenges/circular-array-rotation/problem?isFullScreen=true) | [Source Code](./circular-array-rotation/circular-array-rotation.go)
 - Separate the Numbers * - [Question](https://www.hackerrank.com/challenges/separate-the-numbers/problem?isFullScreen=true) | [Source Code](./separate-the-numbers/separate-the-numbers.go)
 - Count Triplets ** - [Question](https://www.hackerrank.com/challenges/count-triplets-1/problem?isFullScreen=true) | [Source Code](./count-triplets-1/count-triplets-1.go)
+- Triple sum ** - [Question](https://www.hackerrank.com/challenges/triple-sum/problem?isFullScreen=true) | [Source Code](./triple-sum/triple-sum.go)
