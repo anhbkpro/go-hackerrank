@@ -18,13 +18,13 @@ import (
  *  2. INTEGER_ARRAY arr
  */
 
-func IcecreamParlor(m int32, arr []int32) []int32 {
+func IcecreamParlor(money int32, cost []int32) []int32 {
 	var result []int32
 	priceMap := make(map[int32]int32)
-	for i, v := range arr {
+	for i, v := range cost {
 		var indexes []int32
-		if v < m {
-			if pairIndex, ok := priceMap[m-v]; ok {
+		if v < money {
+			if pairIndex, ok := priceMap[money-v]; ok {
 				indexes = append(indexes, pairIndex+1)
 				indexes = append(indexes, int32(i+1))
 				return indexes
