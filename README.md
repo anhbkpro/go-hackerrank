@@ -53,3 +53,6 @@ Solutions of all the questions from Hackerrank in Golang.
 - Count Triplets ** - [Question](https://www.hackerrank.com/challenges/count-triplets-1/problem?isFullScreen=true) | [Source Code](./count-triplets-1/count-triplets-1.go)
 - Triple sum ** - [Question](https://www.hackerrank.com/challenges/triple-sum/problem?isFullScreen=true) | [Source Code](./triple-sum/triple-sum.go)
 - Number Line Jumps * - [Question](https://www.hackerrank.com/challenges/kangaroo/problem?isFullScreen=true) | [Source Code](./kangaroo/kangaroo.go)
+
+### [Grokking the Coding Interview: Patterns for Coding Questions](https://designgurus.org/path-player?courseid=grokking-the-coding-interview&unit=grokking-the-coding-interview_1628744665509_131Unit)
+- Maximum Sum Subarray of Size K * [Question](https://designgurus.org/path-player?courseid=grokking-the-coding-interview&unit=grokking-the-coding-interview_1627871358579_1Unit) | [Source Code](./sliding-window/max-subarrays/max-subarrays.go)
