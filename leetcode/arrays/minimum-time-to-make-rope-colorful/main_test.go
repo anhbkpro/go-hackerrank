@@ -1,8 +1,9 @@
 package minimum_time_to_make_rope_colorful
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestMinCost(t *testing.T) {
