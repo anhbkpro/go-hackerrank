@@ -5,6 +5,9 @@
 - Best Time to Buy and Sell Stock * - [Question](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Source Code](./arrays/best-time-to-buy-and-sell-stock/main.go)
 - Maximum Subarray ** - [Question](https://leetcode.com/problems/maximum-subarray/) | [Source Code](./arrays/maximum-subarray/main.go)
 - Contains Duplicate * - [Question](https://leetcode.com/problems/contains-duplicate/) | [Source Code](./arrays/contains-duplicate/main.go)
+- Product of Array Except Self ** - [Question](https://leetcode.com/problems/product-of-array-except-self/) | [Source Code](./arrays/product-of-array-except-self/main.go)
+- Maximum Product Subarray ** - [Question](https://leetcode.com/problems/maximum-product-subarray/) | [Source Code](./arrays/maximum-product-subarray/main.go)
+- Subarray Product Less Than K ** - [Question](https://leetcode.com/problems/subarray-product-less-than-k/) | [Source Code](./arrays/subarray-product-less-than-k/main.go)
 
 ## Backtracking
 - Generate Parentheses ** - [Question](https://leetcode.com/problems/generate-parentheses/) | [Source Code](backtracking/generate-parentheses/main.go)
