@@ -13,3 +13,4 @@
 
 ## Backtracking
 - Generate Parentheses ** - [Question](https://leetcode.com/problems/generate-parentheses/) | [Source Code](backtracking/generate-parentheses/main.go)
+- Subsets ** - [Question](https://leetcode.com/problems/subsets/) | [Source Code](backtracking/subsets/main.go)
