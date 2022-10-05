@@ -6,25 +6,25 @@ func GenerateParenthesis(n int) []string {
 	var stack []string
 	var res []string
 
-	backtrack(0, 0, n, &stack, &res)
+	backtrack(&stack, &res, 0, 0, n)
 
 	return res
 }
 
-func backtrack(open, closed, n int, stack, res *[]string) {
+func backtrack(stack, res *[]string, open, closed, n int) {
 	if open == closed && closed == n {
 		*res = append(*res, strings.Join(*stack, ""))
 		return
 	}
 	if open < n {
 		*stack = append(*stack, "(")
-		backtrack(open+1, closed, n, stack, res)
+		backtrack(stack, res, open+1, closed, n)
 		*stack = (*stack)[0 : len(*stack)-1]
 	}
 
 	if closed < open {
 		*stack = append(*stack, ")")
-		backtrack(open, closed+1, n, stack, res)
+		backtrack(stack, res, open, closed+1, n)
 		*stack = (*stack)[0 : len(*stack)-1]
 	}
 }

@@ -4,12 +4,12 @@ func Subsets(nums []int) [][]int {
 	var res [][]int
 	var subset []int
 
-	dfs(0, subset, &nums, &res)
+	dfs(&nums, &res, 0, subset)
 
 	return res
 }
 
-func dfs(i int, subset []int, nums *[]int, res *[][]int) {
+func dfs(nums *[]int, res *[][]int, i int, subset []int) {
 	if i >= len(*nums) {
 		dst := make([]int, len(subset))
 		copy(dst, subset)
@@ -19,9 +19,9 @@ func dfs(i int, subset []int, nums *[]int, res *[][]int) {
 
 	// decision to include nums[i]
 	subset = append(subset, (*nums)[i])
-	dfs(i+1, subset, nums, res)
+	dfs(nums, res, i+1, subset)
 
 	// decision NOT to include nums[i]
 	subset = (subset)[:len(subset)-1]
-	dfs(i+1, subset, nums, res)
+	dfs(nums, res, i+1, subset)
 }
