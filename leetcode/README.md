@@ -21,4 +21,5 @@
 
 ## String
 - Valid Parentheses * - [Question](https://leetcode.com/problems/valid-parentheses/) | [Source Code](./string/valid-parentheses/main.go)
+- Remove All Adjacent Duplicates in String II ** - [Question](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Source Code](./string/remove-all-adjacent-duplicates-in-string-ii/main.go)
 
