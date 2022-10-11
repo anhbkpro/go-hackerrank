@@ -17,9 +17,10 @@
 - Subsets ** - [Question](https://leetcode.com/problems/subsets/) | [Source Code](backtracking/subsets/main.go)
 - Permutations ** - [Question](https://leetcode.com/problems/permutations/) | [Source Code](backtracking/permutations/main.go)
 - Letter Combinations of a Phone Number ** - [Question](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Source Code](backtracking/letter-combinations-of-a-phone-number/main.go)
-- Combination Sum ** - [Question](https://leetcode.com/problems/combination-sum/) | [Source Code](backtracking/combination-sum/main.go)
 
 ## String
 - Valid Parentheses * - [Question](https://leetcode.com/problems/valid-parentheses/) | [Source Code](./string/valid-parentheses/main.go)
 - Remove All Adjacent Duplicates in String II ** - [Question](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Source Code](./string/remove-all-adjacent-duplicates-in-string-ii/main.go)
 
+## Dynamic Programming
+- Combination Sum ** - [Question](https://leetcode.com/problems/combination-sum/) | [Source Code](dynamic-programming/combination-sum/main.go)
