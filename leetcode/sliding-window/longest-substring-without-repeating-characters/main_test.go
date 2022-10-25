@@ -6,10 +6,10 @@ import (
 )
 
 func TestLengthOfLongestSubstring(t *testing.T) {
-	assert.Equal(t, 2, LengthOfLongestSubstringDiscussion("aab"))
-	assert.Equal(t, 2, LengthOfLongestSubstringDiscussion("au"))
-	assert.Equal(t, 1, LengthOfLongestSubstringDiscussion(" "))
-	assert.Equal(t, 3, LengthOfLongestSubstringDiscussion("abcabcbb"))
-	assert.Equal(t, 1, LengthOfLongestSubstringDiscussion("bbbbb"))
-	assert.Equal(t, 3, LengthOfLongestSubstringDiscussion("pwwkew"))
+	assert.Equal(t, 2, LengthOfLongestSubstring("aab"))
+	assert.Equal(t, 2, LengthOfLongestSubstring("au"))
+	assert.Equal(t, 1, LengthOfLongestSubstring(" "))
+	assert.Equal(t, 3, LengthOfLongestSubstring("abcabcbb"))
+	assert.Equal(t, 1, LengthOfLongestSubstring("bbbbb"))
+	assert.Equal(t, 3, LengthOfLongestSubstring("pwwkew"))
 }
