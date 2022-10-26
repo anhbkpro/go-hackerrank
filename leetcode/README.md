@@ -41,4 +41,5 @@
 - Longest Repeating Character Replacement ** - [Question](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Source Code](sliding-window/longest-repeating-character-replacement/main.go)
 - Maximize the Confusion of an Exam ** - [Question](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/) | [Source Code](sliding-window/maximize-the-confusion-of-an-exam/main.go)
 - Longest Substring with At Most K Distinct Characters ** - [Question](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Source Code](sliding-window/longest-substring-with-at-most-k-distinct-characters/main.go)
+- Longest Substring with At Most Two Distinct Characters ** - [Question](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [Source Code](sliding-window/longest-substring-with-at-most-two-distinct-characters/main.go)
   
