@@ -10,8 +10,9 @@ func CharacterReplacement(s string, k int) int {
 		return len(s)
 	}
 
-	l, r, longestStr := 0, 0, 0
+	l, r, longestStr, maxFreq := 0, 0, 0, 0
 	freqWindow := make(map[string]int)
+
 	for r < len(s) {
 		cRight := string(s[r])
 		if _, ok := freqWindow[cRight]; ok {
@@ -19,8 +20,8 @@ func CharacterReplacement(s string, k int) int {
 		} else {
 			freqWindow[cRight] = 1
 		}
-
-		if r-l+1-maxOf(freqWindow) <= k {
+		maxFreq = int(math.Max(float64(maxFreq), float64(freqWindow[cRight])))
+		if r-l+1-maxFreq <= k {
 			longestStr = int(math.Max(float64(longestStr), float64(r-l+1)))
 			r++
 		} else {
@@ -34,15 +35,4 @@ func CharacterReplacement(s string, k int) int {
 		}
 	}
 	return longestStr
-}
-
-func maxOf(m map[string]int) int {
-	var res int
-	for _, v := range m {
-		if res < v {
-			res = v
-		}
-	}
-
-	return res
 }
