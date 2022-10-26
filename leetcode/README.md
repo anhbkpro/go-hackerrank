@@ -38,3 +38,4 @@
 - Minimum Size Subarray Sum ** - [Question](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Source Code](sliding-window/minimum-size-subarray-sum/main.go)
 - Permutation in String ** - [Question](https://leetcode.com/problems/permutation-in-string/) | [Source Code](sliding-window/permutation-in-string/main.go)
 - Find All Anagrams in a String ** - [Question](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Source Code](sliding-window/find-all-anagrams-in-a-string/main.go)
+- Longest Repeating Character Replacement ** - [Question](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Source Code](sliding-window/longest-repeating-character-replacement/main.go)
