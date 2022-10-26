@@ -13,11 +13,8 @@ func MaxConsecutiveAnswers(answerKey string, k int) int {
 			freqWindow[cRight] = 1
 		}
 
-		maxItem := maxOf(freqWindow)
-		if r-l+1-maxItem <= k {
+		if r-l+1-maxOf(freqWindow) <= k {
 			max = int(math.Max(float64(max), float64(r-l+1)))
-		}
-		if r-l+1-maxItem <= k {
 			r++
 		} else {
 			cLeft := string(answerKey[l])

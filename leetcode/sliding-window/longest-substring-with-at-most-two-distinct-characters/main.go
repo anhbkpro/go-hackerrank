@@ -15,9 +15,6 @@ func LengthOfLongestSubstringTwoDistinct(s string) int {
 
 		if len(freqWindow) <= 2 {
 			max = int(math.Max(float64(max), float64(r-l+1)))
-		}
-
-		if len(freqWindow) <= 2 {
 			r++
 		} else {
 			cLeft := string(s[l])

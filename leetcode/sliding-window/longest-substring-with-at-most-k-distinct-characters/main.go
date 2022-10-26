@@ -14,8 +14,6 @@ func LongestKSubstr(s string, k int) int {
 		}
 		if len(freqWindow) <= k {
 			max = int(math.Max(float64(max), float64(r-l+1)))
-		}
-		if len(freqWindow) <= k {
 			r++
 		} else {
 			cLeft := string(s[l])

@@ -22,9 +22,6 @@ func CharacterReplacement(s string, k int) int {
 
 		if r-l+1-maxOf(freqWindow) <= k {
 			longestStr = int(math.Max(float64(longestStr), float64(r-l+1)))
-		}
-
-		if r-l-maxOf(freqWindow) < k {
 			r++
 		} else {
 			cLeft := string(s[l])
