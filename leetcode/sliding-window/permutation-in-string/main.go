@@ -1,5 +1,6 @@
 package permutation_in_string
 
+// CheckInclusion Same solution to leetcode/sliding-window/find-all-anagrams-in-a-string/main.go
 func CheckInclusion(s1 string, s2 string) bool {
 	if len(s1) == len(s2) && len(s2) == 0 {
 		return true
@@ -9,17 +10,17 @@ func CheckInclusion(s1 string, s2 string) bool {
 	}
 	freqS1 := mapOf(s1)
 	l, r := 0, 0
-	freqS2 := make(map[string]int)
+	freqWindow := make(map[string]int)
 	for r < len(s2) {
 		cRight := string(s2[r])
-		if _, ok := freqS2[cRight]; ok {
-			freqS2[cRight]++
+		if _, ok := freqWindow[cRight]; ok {
+			freqWindow[cRight]++
 		} else {
-			freqS2[cRight] = 1
+			freqWindow[cRight] = 1
 		}
 
 		if r-l+1 == len(s1) {
-			if areMapsEqual(freqS1, freqS2) {
+			if areMapsEqual(freqS1, freqWindow) {
 				return true
 			}
 		}
@@ -28,9 +29,9 @@ func CheckInclusion(s1 string, s2 string) bool {
 			r++
 		} else {
 			cLeft := string(s2[l])
-			freqS2[cLeft]--
-			if freqS2[cLeft] == 0 {
-				delete(freqS2, cLeft)
+			freqWindow[cLeft]--
+			if freqWindow[cLeft] == 0 {
+				delete(freqWindow, cLeft)
 			}
 			l++
 			r++
