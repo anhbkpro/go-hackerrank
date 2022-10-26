@@ -39,4 +39,5 @@
 - Permutation in String ** - [Question](https://leetcode.com/problems/permutation-in-string/) | [Source Code](sliding-window/permutation-in-string/main.go)
 - Find All Anagrams in a String ** - [Question](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Source Code](sliding-window/find-all-anagrams-in-a-string/main.go)
 - Longest Repeating Character Replacement ** - [Question](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Source Code](sliding-window/longest-repeating-character-replacement/main.go)
-- Maximize the Confusion of an Exam ** - [Question](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/s) | [Source Code](sliding-window/maximize-the-confusion-of-an-exam/main.go)
+- Maximize the Confusion of an Exam ** - [Question](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/) | [Source Code](sliding-window/maximize-the-confusion-of-an-exam/main.go)
+- Longest Substring with K Distinct Characters ** - [Question](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Source Code](sliding-window/longest-substring-with-at-most-k-distinct-characters/main.go)
