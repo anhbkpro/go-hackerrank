@@ -43,4 +43,5 @@
 - Longest Substring with At Most K Distinct Characters ** - [Question](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Source Code](sliding-window/longest-substring-with-at-most-k-distinct-characters/main.go)
 - Longest Substring with At Most Two Distinct Characters ** - [Question](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [Source Code](sliding-window/longest-substring-with-at-most-two-distinct-characters/main.go)
 - Subarrays with K Different Integers *** - [Question](https://leetcode.com/problems/subarrays-with-k-different-integers/) | [Source Code](sliding-window/subarrays-with-k-different-integers/main.go)
+- Fruit Into Baskets ** - [Question](https://leetcode.com/problems/fruit-into-baskets/) | [Source Code](sliding-window/fruit-into-baskets/main.go)
   
