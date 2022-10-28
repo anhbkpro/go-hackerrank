@@ -54,3 +54,4 @@
 - First Letter to Appear Twice * - [Question](https://leetcode.com/problems/first-letter-to-appear-twice/) | [Source Code](sliding-window/first-letter-to-appear-twice/main.go)
 - Two Sum * - [Question](https://leetcode.com/problems/two-sum/) | [Source Code](sliding-window/two-sum/main.go)
 - First Unique Character in a String * - [Question](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Source Code](sliding-window/first-letter-to-appear-twice/main.go)
+- Minimum Consecutive Cards to Pick Up ** - [Question](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/) | [Source Code](sliding-window/minimum-consecutive-cards-to-pick-up/main.go)
