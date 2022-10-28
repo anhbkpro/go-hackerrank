@@ -45,4 +45,5 @@
 - Subarrays with K Different Integers *** - [Question](https://leetcode.com/problems/subarrays-with-k-different-integers/) | [Source Code](sliding-window/subarrays-with-k-different-integers/main.go)
 - Fruit Into Baskets ** - [Question](https://leetcode.com/problems/fruit-into-baskets/) | [Source Code](sliding-window/fruit-into-baskets/main.go)
 - Number of Substrings Containing All Three Characters ** - [Question](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | [Source Code](sliding-window/number-of-substrings-containing-all-three-characters/main.go)
+- Repeated DNA Sequences ** - [Question](https://leetcode.com/problems/repeated-dna-sequences/) | [Source Code](sliding-window/repeated-dna-sequences/main.go)
   
