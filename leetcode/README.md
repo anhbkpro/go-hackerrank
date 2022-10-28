@@ -46,4 +46,5 @@
 - Fruit Into Baskets ** - [Question](https://leetcode.com/problems/fruit-into-baskets/) | [Source Code](sliding-window/fruit-into-baskets/main.go)
 - Number of Substrings Containing All Three Characters ** - [Question](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | [Source Code](sliding-window/number-of-substrings-containing-all-three-characters/main.go)
 - Repeated DNA Sequences ** - [Question](https://leetcode.com/problems/repeated-dna-sequences/) | [Source Code](sliding-window/repeated-dna-sequences/main.go)
+- Maximum Average Subarray I * - [Question](https://leetcode.com/problems/maximum-average-subarray-i/) | [Source Code](sliding-window/maximum-average-subarray-i/main.go)
   
