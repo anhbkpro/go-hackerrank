@@ -3,36 +3,19 @@ package maximize_the_confusion_of_an_exam
 import "math"
 
 func MaxConsecutiveAnswers(answerKey string, k int) int {
-	l, r, max := 0, 0, 0
+	l, ans, mostFreq := 0, 0, 0
 	freqWindow := make(map[string]int)
-	for r < len(answerKey) {
+	for r := 0; r < len(answerKey); r++ {
 		cRight := string(answerKey[r])
-		if _, ok := freqWindow[cRight]; ok {
-			freqWindow[cRight]++
-		} else {
-			freqWindow[cRight] = 1
-		}
+		freqWindow[cRight]++
+		mostFreq = int(math.Max(float64(mostFreq), float64(freqWindow[cRight])))
 
-		if r-l+1-maxOf(freqWindow) <= k {
-			max = int(math.Max(float64(max), float64(r-l+1)))
-			r++
-		} else {
+		for r-l+1-mostFreq > k {
 			cLeft := string(answerKey[l])
 			freqWindow[cLeft]--
-			r++
 			l++
 		}
+		ans = int(math.Max(float64(ans), float64(r-l+1)))
 	}
-	return max
-}
-
-func maxOf(m map[string]int) int {
-	var res int
-	for _, v := range m {
-		if res < v {
-			res = v
-		}
-	}
-
-	return res
+	return ans
 }
