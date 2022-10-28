@@ -51,4 +51,5 @@
 - Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold ** - [Question](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | [Source Code](sliding-window/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/main.go)
 - Minimum Cost of Buying Candies With Discount * - [Question](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | [Source Code](sliding-window/minimum-cost-of-buying-candies-with-discount/main.go)
 - Two Sum II - Input Array Is Sorted * - [Question](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Source Code](sliding-window/two-sum-ii-input-array-is-sorted/main.go)
+- First Letter to Appear Twice * - [Question](https://leetcode.com/problems/first-letter-to-appear-twice/) | [Source Code](sliding-window/first-letter-to-appear-twice/main.go)
   
