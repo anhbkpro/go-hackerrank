@@ -1,33 +1,23 @@
 package main
 
-import (
-	"bufio"
-	"fmt"
-	"io"
-	"os"
-	"strconv"
-	"strings"
-)
-
 /*
- * Complete the 'isBalanced' function below.
+ * Complete the 'IsBalanced' function below.
  *
  * The function is expected to return a STRING.
  * The function accepts STRING s as parameter.
  */
 
-func isBalanced(s string) string {
+func IsBalanced(s string) string {
 	var stack Stack
 	for _, r := range s {
-		if isOpeningBrace(r) {
-			stack.Push(string(r))
-		} else if isClosingBrace(r) {
-			poppedOpeningBrace, ok := stack.Pop()
-			if ok {
-				if isNotAMatch(poppedOpeningBrace, string(r)) {
-					return "NO"
-				}
-			} else {
+		if isOpenBrace(r) {
+			stack.Push(string(r)) // a = string(65)
+		} else if isClosedBrace(r) {
+			item, ok := stack.Pop()
+			if !ok {
+				return "NO"
+			}
+			if isMissing(item, string(r)) {
 				return "NO"
 			}
 		}
@@ -64,7 +54,7 @@ func (s *Stack) Pop() (string, bool) {
 	}
 }
 
-func isOpeningBrace(c rune) bool {
+func isOpenBrace(c rune) bool {
 	for _, v := range "([{" {
 		if v == c {
 			return true
@@ -74,7 +64,7 @@ func isOpeningBrace(c rune) bool {
 	return false
 }
 
-func isClosingBrace(c rune) bool {
+func isClosedBrace(c rune) bool {
 	for _, v := range ")]}" {
 		if v == c {
 			return true
@@ -84,45 +74,15 @@ func isClosingBrace(c rune) bool {
 	return false
 }
 
-func isNotAMatch(openingBrace, closingBrace string) bool {
-	m := map[string]string{"(": ")", "[": "]", "{": "}"}
-	if v, ok := m[openingBrace]; ok {
-		return v != closingBrace
+func isMissing(open, close string) bool {
+	openToCloseMap := map[string]string{
+		"(": ")",
+		"[": "]",
+		"{": "}",
+	}
+	if v, ok := openToCloseMap[open]; ok {
+		return v != close
 	}
 
 	return false
-}
-
-func main() {
-	reader := bufio.NewReaderSize(os.Stdin, 16*1024*1024)
-	writer := bufio.NewWriterSize(os.Stdin, 16*1024*1024)
-
-	tTemp, err := strconv.ParseInt(strings.TrimSpace(readLine(reader)), 10, 64)
-	checkError(err)
-	t := int32(tTemp)
-
-	for tItr := 0; tItr < int(t); tItr++ {
-		s := readLine(reader)
-
-		result := isBalanced(s)
-
-		fmt.Fprintf(writer, "%s\n", result)
-	}
-
-	writer.Flush()
-}
-
-func readLine(reader *bufio.Reader) string {
-	str, _, err := reader.ReadLine()
-	if err == io.EOF {
-		return ""
-	}
-
-	return strings.TrimRight(string(str), "\r\n")
-}
-
-func checkError(err error) {
-	if err != nil {
-		panic(err)
-	}
 }

@@ -19,8 +19,8 @@ import (
  *  3. INTEGER k
  */
 
-func beautifulDays(i int32, j int32, k int32) int32 {
-	var beautifulDays = int32(0)
+func beautifulDays(i int, j int, k int) int {
+	var beautifulDays int
 	for s := i; s <= j; s++ {
 		if (s-reverse(s))%k == 0 {
 			beautifulDays++
@@ -29,14 +29,14 @@ func beautifulDays(i int32, j int32, k int32) int32 {
 	return beautifulDays
 }
 
-func reverse(input int32) int32 {
-	iString := fmt.Sprint(input)
-	rs := reverseStr(iString)
-	s, err := strconv.Atoi(rs)
+func reverse(input int) int {
+	str := strconv.Itoa(input)
+	rs := reverseStr(str)
+	i, err := strconv.Atoi(rs)
 	if err != nil {
 		return 0
 	}
-	return int32(s)
+	return i
 }
 
 func reverseStr(str string) string {
@@ -53,17 +53,17 @@ func main() {
 
 	firstMultipleInput := strings.Split(strings.TrimSpace(readLine(reader)), " ")
 
-	iTemp, err := strconv.ParseInt(firstMultipleInput[0], 10, 64)
+	iTemp, err := strconv.Atoi(firstMultipleInput[0])
 	checkError(err)
-	i := int32(iTemp)
+	i := iTemp
 
-	jTemp, err := strconv.ParseInt(firstMultipleInput[1], 10, 64)
+	jTemp, err := strconv.Atoi(firstMultipleInput[1])
 	checkError(err)
-	j := int32(jTemp)
+	j := jTemp
 
-	kTemp, err := strconv.ParseInt(firstMultipleInput[2], 10, 64)
+	kTemp, err := strconv.Atoi(firstMultipleInput[2])
 	checkError(err)
-	k := int32(kTemp)
+	k := kTemp
 
 	result := beautifulDays(i, j, k)
 
