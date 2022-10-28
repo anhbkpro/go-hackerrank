@@ -28,3 +28,23 @@ func LengthOfLongestSubstringTwoDistinct(s string) int {
 	}
 	return max
 }
+
+func LengthOfLongestSubstringTwoDistinctV2(s string) int {
+	l, max := 0, 0
+	freqWindow := make(map[string]int)
+	for r := 0; r < len(s); r++ {
+		cRight := string(s[r])
+		freqWindow[cRight]++
+
+		for len(freqWindow) > 2 {
+			cLeft := string(s[l])
+			freqWindow[cLeft]--
+			if freqWindow[cLeft] == 0 {
+				delete(freqWindow, cLeft)
+			}
+			l++
+		}
+		max = int(math.Max(float64(max), float64(r-l+1)))
+	}
+	return max
+}

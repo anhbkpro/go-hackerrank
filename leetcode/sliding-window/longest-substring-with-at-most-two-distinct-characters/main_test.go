@@ -8,4 +8,6 @@ import (
 func TestLengthOfLongestSubstringTwoDistinct(t *testing.T) {
 	assert.Equal(t, 3, LengthOfLongestSubstringTwoDistinct("eceba"))
 	assert.Equal(t, 5, LengthOfLongestSubstringTwoDistinct("ccaabbb"))
+	assert.Equal(t, 3, LengthOfLongestSubstringTwoDistinctV2("eceba"))
+	assert.Equal(t, 5, LengthOfLongestSubstringTwoDistinctV2("ccaabbb"))
 }
