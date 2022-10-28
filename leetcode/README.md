@@ -47,4 +47,5 @@
 - Number of Substrings Containing All Three Characters ** - [Question](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | [Source Code](sliding-window/number-of-substrings-containing-all-three-characters/main.go)
 - Repeated DNA Sequences ** - [Question](https://leetcode.com/problems/repeated-dna-sequences/) | [Source Code](sliding-window/repeated-dna-sequences/main.go)
 - Maximum Average Subarray I * - [Question](https://leetcode.com/problems/maximum-average-subarray-i/) | [Source Code](sliding-window/maximum-average-subarray-i/main.go)
+- K Radius Subarray Averages ** - [Question](https://leetcode.com/problems/k-radius-subarray-averages/) | [Source Code](sliding-window/k-radius-subarray-averages/main.go)
   
