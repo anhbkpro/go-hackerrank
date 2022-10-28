@@ -15,7 +15,7 @@ func LengthOfLongestSubstring(s string) int {
 		if len(windowCounts) == r-l+1 {
 			max = int(math.Max(float64(max), float64(r-l+1)))
 			r++
-		} else if len(windowCounts) < r-l+1 {
+		} else if len(windowCounts) < r-l+1 { // contains duplicate
 			for len(windowCounts) < r-l+1 {
 				c = string(s[l])
 				windowCounts[c]--
@@ -29,4 +29,18 @@ func LengthOfLongestSubstring(s string) int {
 	}
 
 	return max
+}
+
+func LengthOfLongestSubstringV2(s string) int {
+	charSet := make(map[string]bool)
+	l, ans := 0, 0
+	for r := 0; r < len(s); r++ {
+		for charSet[string(s[r])] {
+			delete(charSet, string(s[l]))
+			l++
+		}
+		charSet[string(s[r])] = true
+		ans = int(math.Max(float64(ans), float64(r-l+1)))
+	}
+	return ans
 }

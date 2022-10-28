@@ -9,7 +9,7 @@ func TestLengthOfLongestSubstring(t *testing.T) {
 	assert.Equal(t, 2, LengthOfLongestSubstring("aab"))
 	assert.Equal(t, 2, LengthOfLongestSubstring("au"))
 	assert.Equal(t, 1, LengthOfLongestSubstring(" "))
-	assert.Equal(t, 3, LengthOfLongestSubstring("abcabcbb"))
-	assert.Equal(t, 1, LengthOfLongestSubstring("bbbbb"))
-	assert.Equal(t, 3, LengthOfLongestSubstring("pwwkew"))
+	assert.Equal(t, 3, LengthOfLongestSubstringV2("abcabcbb"))
+	assert.Equal(t, 1, LengthOfLongestSubstringV2("bbbbb"))
+	assert.Equal(t, 3, LengthOfLongestSubstringV2("pwwkew"))
 }
