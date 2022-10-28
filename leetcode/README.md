@@ -49,4 +49,5 @@
 - Maximum Average Subarray I * - [Question](https://leetcode.com/problems/maximum-average-subarray-i/) | [Source Code](sliding-window/maximum-average-subarray-i/main.go)
 - K Radius Subarray Averages ** - [Question](https://leetcode.com/problems/k-radius-subarray-averages/) | [Source Code](sliding-window/k-radius-subarray-averages/main.go)
 - Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold ** - [Question](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | [Source Code](sliding-window/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/main.go)
+- Minimum Cost of Buying Candies With Discount * - [Question](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | [Source Code](sliding-window/minimum-cost-of-buying-candies-with-discount/main.go)
   
