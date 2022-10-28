@@ -52,4 +52,5 @@
 - Minimum Cost of Buying Candies With Discount * - [Question](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | [Source Code](sliding-window/minimum-cost-of-buying-candies-with-discount/main.go)
 - Two Sum II - Input Array Is Sorted * - [Question](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Source Code](sliding-window/two-sum-ii-input-array-is-sorted/main.go)
 - First Letter to Appear Twice * - [Question](https://leetcode.com/problems/first-letter-to-appear-twice/) | [Source Code](sliding-window/first-letter-to-appear-twice/main.go)
+- Two Sum * - [Question](https://leetcode.com/problems/two-sum/) | [Source Code](sliding-window/two-sum/main.go)
   
