@@ -11,7 +11,7 @@ func MaximumUniqueSubarray(nums []int) int {
 			l++
 		}
 		intSet[nums[r]] = true
-		if windowSum > ans { // do not use math.Max
+		if windowSum > ans { // maybe of test suit, same performance as math.Max
 			ans = windowSum
 		}
 	}
