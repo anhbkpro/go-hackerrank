@@ -1,7 +1,5 @@
 package maximum_erasure_value
 
-import "math"
-
 func MaximumUniqueSubarray(nums []int) int {
 	l, ans, windowSum := 0, 0, 0
 	intSet := make(map[int]bool)
@@ -12,8 +10,10 @@ func MaximumUniqueSubarray(nums []int) int {
 			delete(intSet, nums[l])
 			l++
 		}
-		ans = int(math.Max(float64(ans), float64(windowSum)))
 		intSet[nums[r]] = true
+		if windowSum > ans { // do not use math.Max
+			ans = windowSum
+		}
 	}
 	return ans
 }
