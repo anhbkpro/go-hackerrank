@@ -7,11 +7,7 @@ func TotalFruit(fruits []int) int {
 	freqFruit := make(map[int]int)
 	for r := 0; r < len(fruits); r++ {
 		fruitType := fruits[r]
-		if _, ok := freqFruit[fruitType]; ok {
-			freqFruit[fruitType]++
-		} else {
-			freqFruit[fruitType] = 1
-		}
+		freqFruit[fruitType]++
 
 		if len(freqFruit) > 2 {
 			leftFruitType := fruits[l]
