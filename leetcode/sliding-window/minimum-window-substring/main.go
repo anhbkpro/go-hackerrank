@@ -16,11 +16,8 @@ func MinWindow(s string, t string) string {
 	for r < len(s) {
 		// Add one character from the right to the window
 		c := string(s[r])
-		if _, ok := windowCounts[c]; ok {
-			windowCounts[c]++
-		} else {
-			windowCounts[c] = 1
-		}
+		windowCounts[c]++
+
 		if v1, v2 := windowCounts[c], mapT[c]; v1 != 0 && v2 != 0 && v1 == v2 {
 			formed++
 		}
