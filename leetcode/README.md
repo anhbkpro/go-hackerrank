@@ -32,6 +32,9 @@
 - N-th Tribonacci Number * - [Question](https://leetcode.com/problems/n-th-tribonacci-number/) | [Source Code](dynamic-programming/n-th-tribonacci-number/main.go)
 - House Robber ** - [Question](https://leetcode.com/problems/house-robber/) | [Source Code](dynamic-programming/house-robber/main.go)
 
+## Monotonic Stack
+- Daily Temperatures ** - [Question](https://leetcode.com/problems/daily-temperatures/) | [Source Code](monotonic_stack/daily-temperatures/main.go)
+
 ## Sliding Window
 - Longest Substring Without Repeating Characters ** - [Question](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Source Code](sliding-window/longest-substring-without-repeating-characters/main.go)
 - Minimum Window Substring *** - [Question](https://leetcode.com/problems/minimum-window-substring/) | [Source Code](sliding-window/minimum-window-substring/main.go)
