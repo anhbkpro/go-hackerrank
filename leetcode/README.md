@@ -36,6 +36,7 @@
 - Daily Temperatures ** - [Question](https://leetcode.com/problems/daily-temperatures/) | [Source Code](monotonic_stack/daily-temperatures/main.go)
 - Largest Rectangle in Histogram (Stack) *** - [Question](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Source Code](monotonic_stack/largest-rectangle-in-histogram/main_stack.go)
 - Largest Rectangle in Histogram (Deque) *** - [Question](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Source Code](monotonic_stack/largest-rectangle-in-histogram/main_deque.go)
+- Online Stock Span (Stack) ** - [Question](https://leetcode.com/problems/online-stock-span/) | [Source Code](monotonic_stack/online-stock-span/main.go)
 
 ## Sliding Window
 - Longest Substring Without Repeating Characters ** - [Question](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Source Code](sliding-window/longest-substring-without-repeating-characters/main.go)
