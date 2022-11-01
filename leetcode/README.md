@@ -39,6 +39,7 @@
 - Online Stock Span ** - [Question](https://leetcode.com/problems/online-stock-span/) | [Source Code](monotonic_stack/online-stock-span/main.go)
 - Next Greater Element I * - [Question](https://leetcode.com/problems/next-greater-element-i/) | [Source Code](monotonic_stack/next-greater-element-i/main.go)
 - Next Greater Element II ** - [Question](https://leetcode.com/problems/next-greater-element-ii/) | [Source Code](monotonic_stack/next-greater-element-ii/main.go)
+- Trapping Rain Water *** - [Question](https://leetcode.com/problems/trapping-rain-water/) | [Source Code](monotonic_stack/trapping-rain-water/main.go)
 
 ## Sliding Window
 - Longest Substring Without Repeating Characters ** - [Question](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Source Code](sliding-window/longest-substring-without-repeating-characters/main.go)
