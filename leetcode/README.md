@@ -44,6 +44,7 @@
 - Shortest Unsorted Continuous Subarray ** - [Question](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Source Code](monotonic_stack/shortest-unsorted-continuous-subarray/main.go)
 - Best Time to Buy and Sell Stock II ** - [Question](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Source Code](monotonic_stack/best-time-to-buy-and-sell-stock-ii/main.go)
 - Remove Duplicate Letters ** - [Question](https://leetcode.com/problems/remove-duplicate-letters/) | [Source Code](monotonic_stack/remove-duplicate-letters/main.go)
+- Final Prices With a Special Discount in a Shop * - [Question](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Source Code](monotonic_stack/final-prices-with-a-special-discount-in-a-shop/main.go)
 
 ## Sliding Window
 - Longest Substring Without Repeating Characters ** - [Question](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Source Code](sliding-window/longest-substring-without-repeating-characters/main.go)
