@@ -40,6 +40,7 @@
 - Next Greater Element I * - [Question](https://leetcode.com/problems/next-greater-element-i/) | [Source Code](monotonic_stack/next-greater-element-i/main.go)
 - Next Greater Element II ** - [Question](https://leetcode.com/problems/next-greater-element-ii/) | [Source Code](monotonic_stack/next-greater-element-ii/main.go)
 - Trapping Rain Water *** - [Question](https://leetcode.com/problems/trapping-rain-water/) | [Source Code](monotonic_stack/trapping-rain-water/main.go)
+- 132 Pattern ** - [Question](https://leetcode.com/problems/132-pattern/) | [Source Code](monotonic_stack/132-pattern/main.go)
 - Shortest Unsorted Continuous Subarray ** - [Question](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Source Code](monotonic_stack/shortest-unsorted-continuous-subarray/main.go)
 - Best Time to Buy and Sell Stock II ** - [Question](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Source Code](monotonic_stack/best-time-to-buy-and-sell-stock-ii/main.go)
 - Remove Duplicate Letters ** - [Question](https://leetcode.com/problems/remove-duplicate-letters/) | [Source Code](monotonic_stack/remove-duplicate-letters/main.go)
