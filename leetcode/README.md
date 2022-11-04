@@ -45,6 +45,7 @@
 - Best Time to Buy and Sell Stock II ** - [Question](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Source Code](monotonic_stack/best-time-to-buy-and-sell-stock-ii/main.go)
 - Remove Duplicate Letters ** - [Question](https://leetcode.com/problems/remove-duplicate-letters/) | [Source Code](monotonic_stack/remove-duplicate-letters/main.go)
 - Final Prices With a Special Discount in a Shop * - [Question](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Source Code](monotonic_stack/final-prices-with-a-special-discount-in-a-shop/main.go)
+- Steps to Make Array Non-decreasing ** - [Question](https://leetcode.com/problems/steps-to-make-array-non-decreasing/) | [Source Code](monotonic_stack/steps-to-make-array-non-decreasing/main.go)
 
 ## Sliding Window
 - Longest Substring Without Repeating Characters ** - [Question](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Source Code](sliding-window/longest-substring-without-repeating-characters/main.go)
