@@ -22,6 +22,9 @@
 - Valid Parentheses * - [Question](https://leetcode.com/problems/valid-parentheses/) | [Source Code](./string/valid-parentheses/main.go)
 - Remove All Adjacent Duplicates in String II ** - [Question](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Source Code](./string/remove-all-adjacent-duplicates-in-string-ii/main.go)
 
+## Binary Search
+- Split Array Largest Sum *** [Question](https://leetcode.com/problems/split-array-largest-sum/) | [Source Code](./binary-search/split-array-largest-sum/main.go)
+
 ## Dynamic Programming
 - Combination Sum ** - [Question](https://leetcode.com/problems/combination-sum/) | [Source Code](dynamic-programming/combination-sum/main.go)
 - Word Break ** - [Question](https://leetcode.com/problems/word-break/) | [Source Code](dynamic-programming/word-break/main.go)
@@ -31,6 +34,10 @@
 - Climbing Stairs * - [Question](https://leetcode.com/problems/climbing-stairs/) | [Source Code](dynamic-programming/climbing-stairs/main.go)
 - N-th Tribonacci Number * - [Question](https://leetcode.com/problems/n-th-tribonacci-number/) | [Source Code](dynamic-programming/n-th-tribonacci-number/main.go)
 - House Robber ** - [Question](https://leetcode.com/problems/house-robber/) | [Source Code](dynamic-programming/house-robber/main.go)
+- House Robber II ** - [Question](https://leetcode.com/problems/house-robber-ii/) | [Source Code](dynamic-programming/house-robber-ii/main.go)
+- Unique Paths ** - [Question](https://leetcode.com/problems/unique-paths/) | [Source Code](dynamic-programming/unique-paths/main.go)
+- Jump Game ** - [Question](https://leetcode.com/problems/jump-game/) | [Source Code](dynamic-programming/jump-game/main.go)
+- Longest Palindromic Substring ** - [Question](https://leetcode.com/problems/longest-palindromic-substring/) | [Source Code](dynamic-programming/longest-palindromic-substring/main.go)
 
 ## Monotonic Stack
 - Daily Temperatures ** - [Question](https://leetcode.com/problems/daily-temperatures/) | [Source Code](monotonic_stack/daily-temperatures/main.go)
@@ -47,6 +54,7 @@
 - Final Prices With a Special Discount in a Shop * - [Question](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Source Code](monotonic_stack/final-prices-with-a-special-discount-in-a-shop/main.go)
 - Steps to Make Array Non-decreasing ** - [Question](https://leetcode.com/problems/steps-to-make-array-non-decreasing/) | [Source Code](monotonic_stack/steps-to-make-array-non-decreasing/main.go)
 - Remove One Element to Make the Array Strictly Increasing * - [Question](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | [Source Code](monotonic_stack/remove-one-element-to-make-the-array-strictly-increasing/main.go)
+- Remove K Digits ** - [Question](https://leetcode.com/problems/remove-k-digits/) | [Source Code](monotonic_stack/remove-k-digits/main.go)
 
 ## Sliding Window
 - Longest Substring Without Repeating Characters ** - [Question](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Source Code](sliding-window/longest-substring-without-repeating-characters/main.go)
