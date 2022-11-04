@@ -46,6 +46,7 @@
 - Remove Duplicate Letters ** - [Question](https://leetcode.com/problems/remove-duplicate-letters/) | [Source Code](monotonic_stack/remove-duplicate-letters/main.go)
 - Final Prices With a Special Discount in a Shop * - [Question](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Source Code](monotonic_stack/final-prices-with-a-special-discount-in-a-shop/main.go)
 - Steps to Make Array Non-decreasing ** - [Question](https://leetcode.com/problems/steps-to-make-array-non-decreasing/) | [Source Code](monotonic_stack/steps-to-make-array-non-decreasing/main.go)
+- Remove One Element to Make the Array Strictly Increasing * - [Question](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | [Source Code](monotonic_stack/remove-one-element-to-make-the-array-strictly-increasing/main.go)
 
 ## Sliding Window
 - Longest Substring Without Repeating Characters ** - [Question](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Source Code](sliding-window/longest-substring-without-repeating-characters/main.go)
