@@ -6,58 +6,48 @@ type indexElement struct {
 }
 type stack []indexElement
 
-func (s *stack) Push(element indexElement) {
+func (s *stack) push(element indexElement) {
 	*s = append(*s, element)
 }
 
-func (s *stack) Pop() indexElement {
+func (s *stack) pop() indexElement {
 	returnVal := (*s)[len(*s)-1]
 	*s = (*s)[:len(*s)-1]
 	return returnVal
 }
 
-func (s *stack) Peek() indexElement {
+func (s *stack) top() indexElement {
 	return (*s)[len(*s)-1]
 }
 
 func LargestRectangleAreaByStack(heights []int) int {
-	i := 0
-	stack := stack{}
+	start := 0
+	st := stack{}
 	max := 0
 
-	for i < len(heights) {
-		currentHeight := heights[i]
-		if len(stack) == 0 || currentHeight > stack.Peek().height { // stack contains increasing index_height
-			stack.Push(indexElement{
-				index:  i,
-				height: currentHeight,
-			})
-		} else {
-			previous := i
-			for len(stack) > 0 && currentHeight <= stack.Peek().height {
-				currentIndex := i
-				poppedVal := stack.Pop()
-				localArea := (currentIndex - poppedVal.index) * poppedVal.height
-				if localArea > max {
-					max = localArea
-				}
-				previous = poppedVal.index
+	for i, h := range heights {
+		start = i
+		for len(st) != 0 && st.top().height > h {
+			item := st.pop()
+			area := (i - item.index) * item.height
+			if area > max {
+				max = area
 			}
-			stack.Push(indexElement{
-				index:  previous,
-				height: heights[i],
-			})
+			start = item.index
 		}
-		i++
+		st.push(indexElement{
+			index:  start,
+			height: h,
+		})
 	}
 
-	for len(stack) > 0 {
-		poppedVal := stack.Pop()
-		currentWith := i - poppedVal.index
-		area := currentWith * poppedVal.height
+	for len(st) != 0 {
+		item := st.pop()
+		area := (len(heights) - item.index) * item.height
 		if area > max {
 			max = area
 		}
 	}
+
 	return max
 }
