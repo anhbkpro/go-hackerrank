@@ -19,8 +19,9 @@
 - Letter Combinations of a Phone Number ** - [Question](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Source Code](backtracking/letter-combinations-of-a-phone-number/main.go)
 
 ## String
-- Valid Parentheses * - [Question](https://leetcode.com/problems/valid-parentheses/) | [Source Code](./string/valid-parentheses/main.go)
-- Remove All Adjacent Duplicates in String II ** - [Question](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Source Code](./string/remove-all-adjacent-duplicates-in-string-ii/main.go)
+- Valid Parentheses * - [Question](https://leetcode.com/problems/valid-parentheses/) | [Source Code](string/valid-parentheses/main.go)
+- Remove All Adjacent Duplicates in String II ** - [Question](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Source Code](string/remove-all-adjacent-duplicates-in-string-ii/main.go)
+- Count Number of Homogenous Substrings ** - [Question](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | [Source Code](string/count-number-of-homogenous-substrings/main.go)
 
 ## Binary Search
 - Split Array Largest Sum *** [Question](https://leetcode.com/problems/split-array-largest-sum/) | [Source Code](./binary-search/split-array-largest-sum/main.go)
@@ -57,7 +58,6 @@
 - Remove K Digits ** - [Question](https://leetcode.com/problems/remove-k-digits/) | [Source Code](monotonic_stack/remove-k-digits/main.go)
 - Sum of Subarray Minimums ** - [Question](https://leetcode.com/problems/sum-of-subarray-minimums/) | [Source Code](monotonic_stack/sum-of-subarray-minimums/main.go)
 - Sum of Subarray Ranges ** - [Question](https://leetcode.com/problems/sum-of-subarray-ranges/) | [Source Code](monotonic_stack/sum-of-subarray-ranges/main.go)
-- Count Number of Homogenous Substrings ** - [Question](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | [Source Code](monotonic_stack/count-number-of-homogenous-substrings/main.go)
 - Consecutive Characters * - [Question](https://leetcode.com/problems/consecutive-characters/) | [Source Code](monotonic_stack/consecutive-characters/main.go)
 - Number of Visible People in a Queue *** - [Question](https://leetcode.com/problems/number-of-visible-people-in-a-queue/) | [Source Code](monotonic_stack/number-of-visible-people-in-a-queue/main.go)
 
