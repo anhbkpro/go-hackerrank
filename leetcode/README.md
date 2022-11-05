@@ -55,6 +55,7 @@
 - Steps to Make Array Non-decreasing ** - [Question](https://leetcode.com/problems/steps-to-make-array-non-decreasing/) | [Source Code](monotonic_stack/steps-to-make-array-non-decreasing/main.go)
 - Remove One Element to Make the Array Strictly Increasing * - [Question](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | [Source Code](monotonic_stack/remove-one-element-to-make-the-array-strictly-increasing/main.go)
 - Remove K Digits ** - [Question](https://leetcode.com/problems/remove-k-digits/) | [Source Code](monotonic_stack/remove-k-digits/main.go)
+- Sum of Subarray Minimums ** - [Question](https://leetcode.com/problems/sum-of-subarray-minimums/) | [Source Code](monotonic_stack/sum-of-subarray-minimums/main.go)
 
 ## Sliding Window
 - Longest Substring Without Repeating Characters ** - [Question](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Source Code](sliding-window/longest-substring-without-repeating-characters/main.go)
