@@ -59,6 +59,7 @@
 - Sum of Subarray Ranges ** - [Question](https://leetcode.com/problems/sum-of-subarray-ranges/) | [Source Code](monotonic_stack/sum-of-subarray-ranges/main.go)
 - Count Number of Homogenous Substrings ** - [Question](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | [Source Code](monotonic_stack/count-number-of-homogenous-substrings/main.go)
 - Consecutive Characters * - [Question](https://leetcode.com/problems/consecutive-characters/) | [Source Code](monotonic_stack/consecutive-characters/main.go)
+- Number of Visible People in a Queue *** - [Question](https://leetcode.com/problems/number-of-visible-people-in-a-queue/) | [Source Code](monotonic_stack/number-of-visible-people-in-a-queue/main.go)
 
 ## Sliding Window
 - Longest Substring Without Repeating Characters ** - [Question](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Source Code](sliding-window/longest-substring-without-repeating-characters/main.go)
