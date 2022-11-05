@@ -57,6 +57,7 @@
 - Remove K Digits ** - [Question](https://leetcode.com/problems/remove-k-digits/) | [Source Code](monotonic_stack/remove-k-digits/main.go)
 - Sum of Subarray Minimums ** - [Question](https://leetcode.com/problems/sum-of-subarray-minimums/) | [Source Code](monotonic_stack/sum-of-subarray-minimums/main.go)
 - Sum of Subarray Ranges ** - [Question](https://leetcode.com/problems/sum-of-subarray-ranges/) | [Source Code](monotonic_stack/sum-of-subarray-ranges/main.go)
+- Count Number of Homogenous Substrings ** - [Question](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | [Source Code](monotonic_stack/count-number-of-homogenous-substrings/main.go)
 
 ## Sliding Window
 - Longest Substring Without Repeating Characters ** - [Question](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Source Code](sliding-window/longest-substring-without-repeating-characters/main.go)
