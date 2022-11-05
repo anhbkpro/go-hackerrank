@@ -2,6 +2,7 @@ package count_number_of_homogenous_substrings
 
 const MOD = 1000000007
 
+// CountHomogenous Similar questions:https://leetcode.com/problems/number-of-substrings-with-only-1s/
 func CountHomogenous(s string) int {
 	runes := []rune(s)
 	ans := 0
