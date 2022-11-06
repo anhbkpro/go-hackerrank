@@ -63,6 +63,7 @@
 - Number of Visible People in a Queue *** - [Question](https://leetcode.com/problems/number-of-visible-people-in-a-queue/) | [Source Code](monotonic_stack/number-of-visible-people-in-a-queue/main.go)
 - Max Chunks To Make Sorted ** - [Question](https://leetcode.com/problems/max-chunks-to-make-sorted/) | [Source Code](monotonic_stack/max-chunks-to-make-sorted/main.go)
 - Max Chunks To Make Sorted II *** - [Question](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/) | [Source Code](monotonic_stack/max-chunks-to-make-sorted-ii/main.go)
+- Smallest Subsequence of Distinct Characters ** - [Question](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | [Source Code](monotonic_stack/smallest-subsequence-of-distinct-characters/main.go)
 
 ## Sliding Window
 - Longest Substring Without Repeating Characters ** - [Question](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Source Code](sliding-window/longest-substring-without-repeating-characters/main.go)
