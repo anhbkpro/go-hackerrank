@@ -8,11 +8,7 @@ func countsOfSubarraysWithKDistinct(nums []int, k int) int {
 	l, r, ans := 0, 0, 0
 	freqWindow := make(map[int]int)
 	for r < len(nums) {
-		if _, ok := freqWindow[nums[r]]; ok {
-			freqWindow[nums[r]]++
-		} else {
-			freqWindow[nums[r]] = 1
-		}
+		freqWindow[nums[r]]++
 		for len(freqWindow) > k {
 			freqWindow[nums[l]]--
 			if freqWindow[nums[l]] == 0 {
