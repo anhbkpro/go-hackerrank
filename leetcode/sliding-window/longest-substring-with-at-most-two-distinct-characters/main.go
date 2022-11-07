@@ -7,12 +7,7 @@ func LengthOfLongestSubstringTwoDistinct(s string) int {
 	freqWindow := make(map[string]int)
 	for r < len(s) {
 		cRight := string(s[r])
-		if _, ok := freqWindow[cRight]; ok {
-			freqWindow[cRight]++
-		} else {
-			freqWindow[cRight] = 1
-		}
-
+		freqWindow[cRight]++
 		if len(freqWindow) <= 2 {
 			max = int(math.Max(float64(max), float64(r-l+1)))
 			r++
