@@ -65,6 +65,7 @@
 - Max Chunks To Make Sorted II *** - [Question](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/) | [Source Code](monotonic_stack/max-chunks-to-make-sorted-ii/main.go)
 - Smallest Subsequence of Distinct Characters ** - [Question](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | [Source Code](monotonic_stack/smallest-subsequence-of-distinct-characters/main.go)
 - The Number of Weak Characters in the Game ** - [Question](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/) | [Source Code](monotonic_stack/the-number-of-weak-characters-in-the-game/main.go)
+- Find the Most Competitive Subsequence ** - [Question](https://leetcode.com/problems/find-the-most-competitive-subsequence/) | [Source Code](monotonic_stack/find-the-most-competitive-subsequence/main.go)
 
 ## Sliding Window
 - Longest Substring Without Repeating Characters ** - [Question](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Source Code](sliding-window/longest-substring-without-repeating-characters/main.go)
