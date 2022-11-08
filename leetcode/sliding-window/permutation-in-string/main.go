@@ -38,11 +38,7 @@ func CheckInclusion(s1 string, s2 string) bool {
 func mapOf(str string) map[string]int {
 	m := make(map[string]int)
 	for _, s := range str {
-		if _, ok := m[string(s)]; ok {
-			m[string(s)]++
-		} else {
-			m[string(s)] = 1
-		}
+		m[string(s)]++
 	}
 	return m
 }

@@ -21,11 +21,7 @@ func cutTheSticks(arr []int32) []int32 {
 	m := make(map[int32]int32)
 	var rv []int32
 	for _, v := range arr {
-		if _, ok := m[v]; ok {
-			m[v]++
-		} else {
-			m[v] = 1
-		}
+		m[v]++
 	}
 
 	sort.Slice(arr, func(i, j int) bool {

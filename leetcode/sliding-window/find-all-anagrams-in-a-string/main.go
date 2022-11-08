@@ -7,40 +7,37 @@ func FindAnagrams(s string, p string) []int {
 	}
 
 	var ans []int
-	l, r := 0, 0
+	walker := 0
 	freqP := freqOf(p)
-	freqWindow := make(map[string]int)
-	for r < len(s) {
-		cRight := string(s[r])
-		freqWindow[cRight]++
-		if r-l+1 == len(p) && areMapsEqual(freqP, freqWindow) {
-			ans = append(ans, l)
+	freqW := make(map[rune]int)
+	runes := []rune(s)
+	for runner, rr := range runes {
+		freqW[rr]++
+		if runner-walker+1 == len(p) && areMapsEqual(freqP, freqW) {
+			ans = append(ans, walker)
 		}
 
-		if r-l+1 < len(p) {
-			r++
-		} else {
-			cLeft := string(s[l])
-			freqWindow[cLeft]--
-			if freqWindow[cLeft] == 0 {
-				delete(freqWindow, cLeft)
+		if runner-walker+1 >= len(p) {
+			lr := runes[walker]
+			freqW[lr]--
+			if freqW[lr] == 0 {
+				delete(freqW, lr)
 			}
-			l++
-			r++
+			walker++
 		}
 	}
 	return ans
 }
 
-func freqOf(s string) map[string]int {
-	res := make(map[string]int)
-	for _, item := range s {
-		res[string(item)]++
+func freqOf(s string) map[rune]int {
+	res := make(map[rune]int)
+	for _, r := range []rune(s) {
+		res[r]++
 	}
 	return res
 }
 
-func areMapsEqual(m1, m2 map[string]int) bool {
+func areMapsEqual(m1, m2 map[rune]int) bool {
 	if len(m1) != len(m2) {
 		return false
 	}

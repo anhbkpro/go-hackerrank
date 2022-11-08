@@ -18,11 +18,7 @@ import (
 func gameOfThrones(s string) string {
 	charMap := make(map[rune]int32)
 	for _, c := range s {
-		if _, ok := charMap[c]; ok {
-			charMap[c]++
-		} else {
-			charMap[c] = 1
-		}
+		charMap[c]++
 	}
 
 	reservedMiddle := true

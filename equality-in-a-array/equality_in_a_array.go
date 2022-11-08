@@ -19,11 +19,7 @@ import (
 func EqualizeArray(arr []int32) int32 {
 	m := make(map[int32]int32)
 	for _, v := range arr {
-		if _, ok := m[v]; ok {
-			m[v]++
-		} else {
-			m[v] = 1
-		}
+		m[v]++
 	}
 
 	max := int32(0)
