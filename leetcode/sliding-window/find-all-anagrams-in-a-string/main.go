@@ -12,15 +12,9 @@ func FindAnagrams(s string, p string) []int {
 	freqWindow := make(map[string]int)
 	for r < len(s) {
 		cRight := string(s[r])
-		if _, ok := freqWindow[cRight]; ok {
-			freqWindow[cRight]++
-		} else {
-			freqWindow[cRight] = 1
-		}
-		if r-l+1 == len(p) {
-			if areMapsEqual(freqP, freqWindow) {
-				ans = append(ans, l)
-			}
+		freqWindow[cRight]++
+		if r-l+1 == len(p) && areMapsEqual(freqP, freqWindow) {
+			ans = append(ans, l)
 		}
 
 		if r-l+1 < len(p) {

@@ -8,11 +8,7 @@ func FirstUniqChar(s string) int {
 	ans := math.MaxInt
 	seen := make(map[rune]int)
 	for _, r := range []rune(s) {
-		if _, ok := seen[r]; ok {
-			seen[r]++
-		} else {
-			seen[r] = 1
-		}
+		seen[r]++
 	}
 
 	for i := 0; i < len(s); i++ {

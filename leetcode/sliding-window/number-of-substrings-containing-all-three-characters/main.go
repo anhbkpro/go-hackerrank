@@ -5,11 +5,7 @@ func NumberOfSubstrings(s string) int {
 	freqWindow := make(map[string]int)
 	for r < len(s) {
 		cRight := string(s[r])
-		if _, ok := freqWindow[cRight]; ok {
-			freqWindow[cRight]++
-		} else {
-			freqWindow[cRight] = 1
-		}
+		freqWindow[cRight]++
 		for freqWindow["a"] > 0 && freqWindow["b"] > 0 && freqWindow["c"] > 0 {
 			cLeft := string(s[l])
 			freqWindow[cLeft]--

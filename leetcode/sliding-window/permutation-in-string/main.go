@@ -13,12 +13,7 @@ func CheckInclusion(s1 string, s2 string) bool {
 	freqWindow := make(map[string]int)
 	for r < len(s2) {
 		cRight := string(s2[r])
-		if _, ok := freqWindow[cRight]; ok {
-			freqWindow[cRight]++
-		} else {
-			freqWindow[cRight] = 1
-		}
-
+		freqWindow[cRight]++
 		if r-l+1 == len(s1) {
 			if areMapsEqual(freqS1, freqWindow) {
 				return true

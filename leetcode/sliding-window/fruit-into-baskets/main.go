@@ -8,7 +8,6 @@ func TotalFruit(fruits []int) int {
 	for r := 0; r < len(fruits); r++ {
 		fruitType := fruits[r]
 		freqFruit[fruitType]++
-
 		if len(freqFruit) > 2 {
 			leftFruitType := fruits[l]
 			freqFruit[leftFruitType]--

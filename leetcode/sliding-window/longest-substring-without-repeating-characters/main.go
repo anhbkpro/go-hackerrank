@@ -7,11 +7,7 @@ func LengthOfLongestSubstring(s string) int {
 	l, r, max := 0, 0, 0
 	for r < len(s) {
 		c := string(s[r])
-		if _, ok := windowCounts[c]; ok {
-			windowCounts[c]++
-		} else {
-			windowCounts[c] = 1
-		}
+		windowCounts[c]++
 		if len(windowCounts) == r-l+1 {
 			max = int(math.Max(float64(max), float64(r-l+1)))
 			r++
