@@ -40,6 +40,7 @@
 - Unique Paths ** - [Question](https://leetcode.com/problems/unique-paths/) | [Source Code](dynamic-programming/unique-paths/main.go)
 - Jump Game ** - [Question](https://leetcode.com/problems/jump-game/) | [Source Code](dynamic-programming/jump-game/main.go)
 - Longest Palindromic Substring ** - [Question](https://leetcode.com/problems/longest-palindromic-substring/) | [Source Code](dynamic-programming/longest-palindromic-substring/main.go)
+- Longest String Chain ** - [Question](https://leetcode.com/problems/longest-string-chain/) | [Source Code](dynamic-programming/longest-string-chain/main.go)
 
 ## Monotonic Stack
 - Daily Temperatures ** - [Question](https://leetcode.com/problems/daily-temperatures/) | [Source Code](monotonic_stack/daily-temperatures/main.go)
