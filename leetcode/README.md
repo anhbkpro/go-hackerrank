@@ -98,3 +98,4 @@
 - Max Consecutive Ones * - [Question](https://leetcode.com/problems/max-consecutive-ones/) | [Source Code](sliding-window/max-consecutive-ones/main.go)
 - Frequency of the Most Frequent Element ** - [Question](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | [Source Code](sliding-window/frequency-of-the-most-frequent-element/main.go)
 - Find All Lonely Numbers in the Array ** - [Question](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/) | [Source Code](sliding-window/find-all-lonely-numbers-in-the-array/main.go)
+- Find the K-Beauty of a Number * - [Question](https://leetcode.com/problems/find-the-k-beauty-of-a-number/) | [Source Code](sliding-window/find-the-k-beauty-of-a-number/main.go)
