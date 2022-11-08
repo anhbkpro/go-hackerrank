@@ -18,21 +18,19 @@ func LongestOnes(nums []int, k int) int {
 
 // LongestOnesV2 Runtime: 57 ms, faster than 94.19% of Go online submissions for Max Consecutive Ones III.
 func LongestOnesV2(nums []int, k int) int {
-	left, right, numZeroes, ans := 0, 0, 0, 0
-	for right = 0; right < len(nums); right++ {
-		if nums[right] == 0 {
+	l, r, numZeroes, ans := 0, 0, 0, 0
+	for r = 0; r < len(nums); r++ {
+		if nums[r] == 0 {
 			numZeroes++
 		}
 		if numZeroes > k {
-			if nums[left] == 0 {
+			if nums[l] == 0 {
 				numZeroes--
 			}
-			left++
+			l++
 		}
-		if numZeroes <= k {
-			if right-left+1 > ans {
-				ans = right - left + 1
-			}
+		if r-l+1 > ans {
+			ans = r - l + 1
 		}
 	}
 	return ans

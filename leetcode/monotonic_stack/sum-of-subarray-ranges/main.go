@@ -17,11 +17,7 @@ func (s *stack) top() int {
 }
 
 func (s *stack) empty() bool {
-	if len(*s) != 0 {
-		return false
-	}
-
-	return true
+	return len(*s) == 0
 }
 
 func SubArrayRanges(nums []int) int64 {
