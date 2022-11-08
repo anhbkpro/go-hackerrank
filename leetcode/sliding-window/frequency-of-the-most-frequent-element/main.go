@@ -7,16 +7,18 @@ func MaxFrequency(nums []int, k int) int {
 	sort.Slice(nums, func(i, j int) bool {
 		return nums[i] < nums[j]
 	})
-	res, i, j, sum := 1, 0, 0, 0
-	for j = 0; j < len(nums); j++ {
-		sum += nums[j]
-		// the key is to find out the valid condition: sum + k < max*size = last_item * (j-i+1)
-		for sum+k < nums[j]*(j-i+1) {
-			sum -= nums[i]
-			i++
+	res, l, r, total := 1, 0, 0, 0
+	for r = 0; r < len(nums); r++ {
+		total += nums[r]
+
+		// the key is to find out the valid condition: total + k < max*size = last_item * (r-l+1)
+		for total+k < nums[r]*(r-l+1) {
+			total -= nums[l]
+			l++
 		}
-		if j-i+1 > res {
-			res = j - i + 1
+		
+		if r-l+1 > res {
+			res = r - l + 1
 		}
 	}
 	return res
