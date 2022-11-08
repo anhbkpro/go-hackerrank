@@ -35,12 +35,7 @@ func FindAnagrams(s string, p string) []int {
 func freqOf(s string) map[string]int {
 	res := make(map[string]int)
 	for _, item := range s {
-		c := string(item)
-		if _, ok := res[c]; ok {
-			res[c]++
-		} else {
-			res[c] = 1
-		}
+		res[string(item)]++
 	}
 	return res
 }
