@@ -9,41 +9,36 @@ func CheckInclusion(s1 string, s2 string) bool {
 		return false
 	}
 	freqS1 := mapOf(s1)
-	l, r := 0, 0
-	freqWindow := make(map[string]int)
-	for r < len(s2) {
-		cRight := string(s2[r])
-		freqWindow[cRight]++
-		if r-l+1 == len(s1) {
-			if areMapsEqual(freqS1, freqWindow) {
-				return true
-			}
+	walker := 0
+	freqW := make(map[rune]int)
+	runes := []rune(s2)
+	for runner, rr := range runes {
+		freqW[rr]++
+		if runner-walker+1 == len(s1) && areMapsEqual(freqS1, freqW) {
+			return true
 		}
 
-		if r-l+1 < len(s1) {
-			r++
-		} else {
-			cLeft := string(s2[l])
-			freqWindow[cLeft]--
-			if freqWindow[cLeft] == 0 {
-				delete(freqWindow, cLeft)
+		if runner-walker+1 >= len(s1) {
+			lr := runes[walker]
+			freqW[lr]--
+			if freqW[lr] == 0 {
+				delete(freqW, lr)
 			}
-			l++
-			r++
+			walker++
 		}
 	}
 	return false
 }
 
-func mapOf(str string) map[string]int {
-	m := make(map[string]int)
-	for _, s := range str {
-		m[string(s)]++
+func mapOf(str string) map[rune]int {
+	m := make(map[rune]int)
+	for _, r := range []rune(str) {
+		m[r]++
 	}
 	return m
 }
 
-func areMapsEqual(m1, m2 map[string]int) bool {
+func areMapsEqual(m1, m2 map[rune]int) bool {
 	if len(m1) != len(m2) {
 		return false
 	}
