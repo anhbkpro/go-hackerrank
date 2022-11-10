@@ -28,6 +28,9 @@
 ## Binary Search
 - Split Array Largest Sum *** [Question](https://leetcode.com/problems/split-array-largest-sum/) | [Source Code](./binary-search/split-array-largest-sum/main.go)
 
+## Bucket Sort
+- Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
+
 ## Dynamic Programming
 - Combination Sum ** - [Question](https://leetcode.com/problems/combination-sum/) | [Source Code](dynamic-programming/combination-sum/main.go)
 - Word Break ** - [Question](https://leetcode.com/problems/word-break/) | [Source Code](dynamic-programming/word-break/main.go)
