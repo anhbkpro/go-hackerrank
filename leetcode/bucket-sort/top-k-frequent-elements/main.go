@@ -7,15 +7,15 @@ import "fmt"
 //	Memory Usage: 6.6 MB, less than 8.55% of Go online submissions for Top K Frequent Elements.
 func TopKFrequent(nums []int, k int) []int {
 	bucket := make([][]int, len(nums)+1)
-	freq := make(map[int]int)
+	freq := make(map[int]int) // map[frequent][]{numbers}
 	for i := 0; i < len(nums); i++ {
 		freq[nums[i]]++
 	}
 
 	for k, v := range freq {
-		oldItems := bucket[v]
-		oldItems = append(oldItems, k)
-		bucket[v] = oldItems
+		sameFrequentElements := bucket[v]
+		sameFrequentElements = append(sameFrequentElements, k)
+		bucket[v] = sameFrequentElements
 	}
 
 	fmt.Println(bucket)
