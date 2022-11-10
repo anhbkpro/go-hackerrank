@@ -31,6 +31,7 @@
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
 - Sort Characters By Frequency ** [Question](https://leetcode.com/problems/sort-characters-by-frequency/) | [Source Code](bucket-sort/sort-characters-by-frequency/main.go)
+- Sort Array by Increasing Frequency * [Question](https://leetcode.com/problems/sort-array-by-increasing-frequency/) | [Source Code](bucket-sort/sort-array-by-increasing-frequency/main.go)
 
 ## Dynamic Programming
 - Combination Sum ** - [Question](https://leetcode.com/problems/combination-sum/) | [Source Code](dynamic-programming/combination-sum/main.go)
