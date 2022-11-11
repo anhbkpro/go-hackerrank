@@ -108,3 +108,4 @@
 - Find All Lonely Numbers in the Array ** - [Question](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/) | [Source Code](sliding-window/find-all-lonely-numbers-in-the-array/main.go)
 - Find the K-Beauty of a Number * - [Question](https://leetcode.com/problems/find-the-k-beauty-of-a-number/) | [Source Code](sliding-window/find-the-k-beauty-of-a-number/main.go)
 - Count Number of Nice Subarrays ** - [Question](https://leetcode.com/problems/count-number-of-nice-subarrays/) | [Source Code](sliding-window/count-number-of-nice-subarrays/main.go)
+- Minimum Number of Flips to Make the Binary String Alternating ** - [Question](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/) | [Source Code](sliding-window/minimum-number-of-flips-to-make-the-binary-string-alternating/main.go)
