@@ -27,6 +27,8 @@
 
 ## Binary Search
 - Binary Search * [Question](https://leetcode.com/problems/binary-search/) | [Source Code](binary-search/binary-search/main.go)
+- First Bad Version * [Question](https://leetcode.com/problems/first-bad-version/) | [Source Code](binary-search/first-bad-version/main.go)
+- Search Insert Position * [Question](https://leetcode.com/problems/search-insert-position/) | [Source Code](binary-search/search-insert-position/main.go)
 - Split Array Largest Sum *** [Question](https://leetcode.com/problems/split-array-largest-sum/) | [Source Code](binary-search/split-array-largest-sum/main.go)
 
 ## Bucket Sort
