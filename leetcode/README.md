@@ -26,7 +26,8 @@
 - Minimum Deletions to Make Character Frequencies Unique ** - [Question](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Source Code](string/minimum-deletions-to-make-character-frequencies-unique/main.go)
 
 ## Binary Search
-- Split Array Largest Sum *** [Question](https://leetcode.com/problems/split-array-largest-sum/) | [Source Code](./binary-search/split-array-largest-sum/main.go)
+- Binary Search * [Question](https://leetcode.com/problems/binary-search/) | [Source Code](binary-search/binary-search/main.go)
+- Split Array Largest Sum *** [Question](https://leetcode.com/problems/split-array-largest-sum/) | [Source Code](binary-search/split-array-largest-sum/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
