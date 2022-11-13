@@ -1,7 +1,7 @@
 package binary_search
 
 func Search(nums []int, target int) int {
-	mid := len(nums) / 2
+	mid := len(nums) >> 1 // avoid overflow when computing h
 	res := 0
 	switch {
 	case len(nums) == 0:
