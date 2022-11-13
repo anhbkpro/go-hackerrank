@@ -26,9 +26,6 @@
 - Minimum Deletions to Make Character Frequencies Unique ** - [Question](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Source Code](string/minimum-deletions-to-make-character-frequencies-unique/main.go)
 
 ## Binary Search
-- Binary Search * [Question](https://leetcode.com/problems/binary-search/) | [Source Code](binary-search/binary-search/main.go)
-- First Bad Version * [Question](https://leetcode.com/problems/first-bad-version/) | [Source Code](binary-search/first-bad-version/main.go)
-- Search Insert Position * [Question](https://leetcode.com/problems/search-insert-position/) | [Source Code](binary-search/search-insert-position/main.go)
 - Split Array Largest Sum *** [Question](https://leetcode.com/problems/split-array-largest-sum/) | [Source Code](binary-search/split-array-largest-sum/main.go)
 
 ## Bucket Sort
@@ -112,3 +109,14 @@
 - Find the K-Beauty of a Number * - [Question](https://leetcode.com/problems/find-the-k-beauty-of-a-number/) | [Source Code](sliding-window/find-the-k-beauty-of-a-number/main.go)
 - Count Number of Nice Subarrays ** - [Question](https://leetcode.com/problems/count-number-of-nice-subarrays/) | [Source Code](sliding-window/count-number-of-nice-subarrays/main.go)
 - Minimum Number of Flips to Make the Binary String Alternating ** - [Question](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/) | [Source Code](sliding-window/minimum-number-of-flips-to-make-the-binary-string-alternating/main.go)
+
+
+## Study Plan
+### Algorithm I
+#### Day 1: Binary Search
+- Binary Search * [Question](https://leetcode.com/problems/binary-search/) | [Source Code](study-plan/algorithm/day-1-binary-search/binary-search/main.go)
+- First Bad Version * [Question](https://leetcode.com/problems/first-bad-version/) | [Source Code](study-plan/algorithm/day-1-binary-search/first-bad-version/main.go)
+- Search Insert Position * [Question](https://leetcode.com/problems/search-insert-position/) | [Source Code](study-plan/algorithm/day-1-binary-search/search-insert-position/main.go)
+
+#### Day 2: Two Pointers
+- Squares of a Sorted Array * [Question](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Source Code](study-plan/algorithm/day-2-two-pointers/squares-of-a-sorted-array/main.go)
