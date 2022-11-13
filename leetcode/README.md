@@ -120,3 +120,4 @@
 
 #### Day 2: Two Pointers
 - Squares of a Sorted Array * [Question](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Source Code](study-plan/algorithm/day-2-two-pointers/squares-of-a-sorted-array/main.go)
+- Rotate Array ** [Question](https://leetcode.com/problems/rotate-array/) | [Source Code](study-plan/algorithm/day-2-two-pointers/rotate-array/main.go)
