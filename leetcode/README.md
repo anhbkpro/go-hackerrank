@@ -121,3 +121,8 @@
 #### Day 2: Two Pointers
 - Squares of a Sorted Array * [Question](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Source Code](study-plan/algorithm/day-2-two-pointers/squares-of-a-sorted-array/main.go)
 - Rotate Array ** [Question](https://leetcode.com/problems/rotate-array/) | [Source Code](study-plan/algorithm/day-2-two-pointers/rotate-array/main.go)
+
+### [Binary Search](https://leetcode.com/study-plan/binary-search/)
+#### Day 1: Binary Search I
+- Binary Search * [Question](https://leetcode.com/problems/binary-search/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/algorithm/day-1-binary-search/binary-search/main.go)
+- Guess Number Higher or Lower * [Question](https://leetcode.com/problems/guess-number-higher-or-lower/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/guess-number-higher-or-lower/main.go)
