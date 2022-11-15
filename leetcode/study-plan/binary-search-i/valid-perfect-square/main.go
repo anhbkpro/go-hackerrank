@@ -1,5 +1,9 @@
 package valid_perfect_square
 
+// IsPerfectSquare
+//	My Solution
+//	Runtime: 0 ms, faster than 100.00% of Go online submissions for Valid Perfect Square.
+//	Memory Usage: 1.9 MB, less than 86.52% of Go online submissions for Valid Perfect Square.
 func IsPerfectSquare(num int) bool {
 	if num == 1 {
 		return true
