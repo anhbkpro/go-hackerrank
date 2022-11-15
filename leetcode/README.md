@@ -126,9 +126,11 @@
 - Reverse String * [Question](https://leetcode.com/problems/reverse-string/?envType=study-plan&id=algorithm-i) | [Source Code](study-plan/algorithm/day-4-two-pointers/reverse-string/main.go)
 
 ### [Binary Search](https://leetcode.com/study-plan/binary-search/)
-#### Day 1: Binary Search I
+#### Day 1
 - Binary Search * [Question](https://leetcode.com/problems/binary-search/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/algorithm/day-1-binary-search/binary-search/main.go)
 - Guess Number Higher or Lower * [Question](https://leetcode.com/problems/guess-number-higher-or-lower/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/guess-number-higher-or-lower/main.go)
-#### Day 2: Binary Search I
+#### Day 2
 - Search Insert Position * [Question](https://leetcode.com/problems/search-insert-position/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/algorithm/day-1-binary-search/search-insert-position/main.go)
 - Peak Index in a Mountain Array ** [Question](https://leetcode.com/problems/peak-index-in-a-mountain-array/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/peak-index-in-a-mountain-array/main.go)
+#### Day 3
+- Valid Perfect Square * [Question](https://leetcode.com/problems/valid-perfect-square/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/valid-perfect-square/main.go)
