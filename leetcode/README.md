@@ -24,6 +24,7 @@
 - Count Number of Homogenous Substrings ** - [Question](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | [Source Code](string/count-number-of-homogenous-substrings/main.go)
 - Number of Substrings With Only 1s ** - [Question](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | [Source Code](string/number-of-substrings-with-only-1s/main.go)
 - Minimum Deletions to Make Character Frequencies Unique ** - [Question](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Source Code](string/minimum-deletions-to-make-character-frequencies-unique/main.go)
+- Search Suggestions System ** - [Question](https://leetcode.com/problems/search-suggestions-system/) | [Source Code](string/search-suggestions-system/main.go)
 
 ## Binary Search
 - Split Array Largest Sum *** [Question](https://leetcode.com/problems/split-array-largest-sum/) | [Source Code](binary-search/split-array-largest-sum/main.go)
@@ -109,7 +110,6 @@
 - Find the K-Beauty of a Number * - [Question](https://leetcode.com/problems/find-the-k-beauty-of-a-number/) | [Source Code](sliding-window/find-the-k-beauty-of-a-number/main.go)
 - Count Number of Nice Subarrays ** - [Question](https://leetcode.com/problems/count-number-of-nice-subarrays/) | [Source Code](sliding-window/count-number-of-nice-subarrays/main.go)
 - Minimum Number of Flips to Make the Binary String Alternating ** - [Question](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/) | [Source Code](sliding-window/minimum-number-of-flips-to-make-the-binary-string-alternating/main.go)
-
 
 ## Study Plan
 ### Algorithm I
