@@ -139,3 +139,5 @@
 #### Day 3
 - Valid Perfect Square * [Question](https://leetcode.com/problems/valid-perfect-square/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/valid-perfect-square/main.go)
 - Find the Distance Value Between Two Arrays * [Question](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/find-the-distance-value-between-two-arrays/main.go)
+#### Day 4
+- Sqrt(x) * [Question](https://leetcode.com/problems/sqrtx/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/sqrtx/main.go)
