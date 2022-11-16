@@ -122,6 +122,9 @@
 - Squares of a Sorted Array * [Question](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Source Code](study-plan/algorithm/day-2-two-pointers/squares-of-a-sorted-array/main.go)
 - Rotate Array ** [Question](https://leetcode.com/problems/rotate-array/) | [Source Code](study-plan/algorithm/day-2-two-pointers/rotate-array/main.go)
 
+#### Day 3: Two Pointers
+- Move Zeroes * [Question](https://leetcode.com/problems/move-zeroes/?envType=study-plan&id=algorithm-i) | [Source Code](study-plan/algorithm/day-3-two-pointers/move-zeroes/main.go)
+
 #### Day 4: Two Pointers
 - Reverse String * [Question](https://leetcode.com/problems/reverse-string/?envType=study-plan&id=algorithm-i) | [Source Code](study-plan/algorithm/day-4-two-pointers/reverse-string/main.go)
 - Reverse Words in a String III * [Question](https://leetcode.com/problems/reverse-words-in-a-string-iii/?envType=study-plan&id=algorithm-i) | [Source Code](study-plan/algorithm/day-4-two-pointers/reverse-words-in-a-string-iii/main.go)
