@@ -138,3 +138,4 @@
 - Peak Index in a Mountain Array ** [Question](https://leetcode.com/problems/peak-index-in-a-mountain-array/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/peak-index-in-a-mountain-array/main.go)
 #### Day 3
 - Valid Perfect Square * [Question](https://leetcode.com/problems/valid-perfect-square/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/valid-perfect-square/main.go)
+- Find the Distance Value Between Two Arrays * [Question](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/find-the-distance-value-between-two-arrays/main.go)
