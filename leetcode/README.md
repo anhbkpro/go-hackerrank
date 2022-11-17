@@ -28,6 +28,7 @@
 
 ## Binary Search
 - Split Array Largest Sum *** [Question](https://leetcode.com/problems/split-array-largest-sum/) | [Source Code](binary-search/split-array-largest-sum/main.go)
+- Find Peak Element ** [Question](https://leetcode.com/problems/find-peak-element/) | [Source Code](binary-search/find-peak-element/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
