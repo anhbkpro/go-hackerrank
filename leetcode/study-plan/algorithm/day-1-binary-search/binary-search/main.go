@@ -1,20 +1,16 @@
 package binary_search
 
 func Search(nums []int, target int) int {
-	mid := len(nums) >> 1 // avoid overflow when computing h
-	res := 0
-	switch {
-	case len(nums) == 0:
-		res = -1 // not found
-	case nums[mid] > target:
-		res = Search(nums[:mid], target)
-	case nums[mid] < target:
-		res = Search(nums[mid+1:], target)
-		if res >= 0 {
-			res += mid + 1
+	lo, hi := 0, len(nums)-1
+	for lo <= hi {
+		mid := (lo + hi) >> 1 // avoid overflow when computing `mid`
+		if nums[mid] > target {
+			hi = mid - 1
+		} else if nums[mid] < target {
+			lo = mid + 1
+		} else {
+			return mid
 		}
-	default: // nums[mid] == search
-		res = mid // found
 	}
-	return res
+	return -1
 }
