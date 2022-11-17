@@ -6,5 +6,23 @@ import (
 )
 
 func TestPeakIndexInMountainArray(t *testing.T) {
-	assert.Equal(t, 1, PeakIndexInMountainArray([]int{0, 2, 1, 0}))
+	type args struct {
+		arr []int
+	}
+	tests := []struct {
+		name string
+		args args
+		want int
+	}{
+		{
+			name: "Test 1",
+			args: args{arr: []int{0, 2, 1, 0}},
+			want: 1,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			assert.Equalf(t, tt.want, PeakIndexInMountainArray(tt.args.arr), "PeakIndexInMountainArray(%v)", tt.args.arr)
+		})
+	}
 }
