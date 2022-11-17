@@ -129,6 +129,9 @@
 - Reverse String * [Question](https://leetcode.com/problems/reverse-string/?envType=study-plan&id=algorithm-i) | [Source Code](study-plan/algorithm/day-4-two-pointers/reverse-string/main.go)
 - Reverse Words in a String III * [Question](https://leetcode.com/problems/reverse-words-in-a-string-iii/?envType=study-plan&id=algorithm-i) | [Source Code](study-plan/algorithm/day-4-two-pointers/reverse-words-in-a-string-iii/main.go)
 
+#### Day 5: Two Pointers
+- Middle of the Linked List * [Question](https://leetcode.com/problems/middle-of-the-linked-list/?envType=study-plan&id=algorithm-i) | [Source Code](study-plan/algorithm/day-5-two-pointers/middle-of-the-linked-list/main.go)
+
 ### [Binary Search](https://leetcode.com/study-plan/binary-search/)
 #### Day 1
 - Binary Search * [Question](https://leetcode.com/problems/binary-search/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/algorithm/day-1-binary-search/binary-search/main.go)
