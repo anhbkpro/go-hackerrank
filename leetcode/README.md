@@ -141,3 +141,4 @@
 - Find the Distance Value Between Two Arrays * [Question](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/find-the-distance-value-between-two-arrays/main.go)
 #### Day 4
 - Sqrt(x) * [Question](https://leetcode.com/problems/sqrtx/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/sqrtx/main.go)
+- Find Smallest Letter Greater Than Target * [Question](https://leetcode.com/problems/find-smallest-letter-greater-than-target/?envType=study-plan&id=binary-search-i) | [Source Code](study-plan/binary-search-i/find-smallest-letter-greater-than-target/main.go)
