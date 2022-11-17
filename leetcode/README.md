@@ -51,6 +51,9 @@
 - Longest Palindromic Substring ** - [Question](https://leetcode.com/problems/longest-palindromic-substring/) | [Source Code](dynamic-programming/longest-palindromic-substring/main.go)
 - Longest String Chain ** - [Question](https://leetcode.com/problems/longest-string-chain/) | [Source Code](dynamic-programming/longest-string-chain/main.go)
 
+## Linked List
+- Delete the Middle Node of a Linked List ** - [Question](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | [Source Code](linked-list/delete-the-middle-node-of-a-linked-list/main.go)
+
 ## Monotonic Stack
 - Daily Temperatures ** - [Question](https://leetcode.com/problems/daily-temperatures/) | [Source Code](monotonic_stack/daily-temperatures/main.go)
 - Largest Rectangle in Histogram *** - [Question](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Source Code](monotonic_stack/largest-rectangle-in-histogram/main_stack.go)
