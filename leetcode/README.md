@@ -32,6 +32,7 @@
 - Find Peak Element II ** [Question](https://leetcode.com/problems/find-a-peak-element-ii/) | [Source Code](binary-search/find-a-peak-element-ii/main.go)
 - Missing Number * [Question](https://leetcode.com/problems/missing-number/) | [Source Code](binary-search/missing-number/main.go)
 - Find Minimum in Rotated Sorted Array ** [Question](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Source Code](binary-search/find-minimum-in-rotated-sorted-array/main.go)
+- Search in Rotated Sorted Array ** [Question](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Source Code](binary-search/search-in-rotated-sorted-array/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
