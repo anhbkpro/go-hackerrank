@@ -35,6 +35,7 @@
 - Search in Rotated Sorted Array ** [Question](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Source Code](binary-search/search-in-rotated-sorted-array/main.go)
 - Find Target Indices After Sorting Array * [Question](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | [Source Code](binary-search/find-target-indices-after-sorting-array/main.go)
 - Count Negative Numbers in a Sorted Matrix * [Question](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | [Source Code](binary-search/count-negative-numbers-in-a-sorted-matrix/main.go)
+- Longest Subsequence With Limited Sum * [Question](https://leetcode.com/problems/longest-subsequence-with-limited-sum/) | [Source Code](binary-search/longest-subsequence-with-limited-sum/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)

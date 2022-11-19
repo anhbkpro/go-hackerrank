@@ -4,9 +4,9 @@ func findMin(nums []int) int {
 	lo, hi := 0, len(nums)-1
 	for lo < hi {
 		mid := (lo + hi) >> 1
-		if nums[mid] > nums[hi] {
+		if nums[mid] > nums[hi] { // smaller values must be in the right sorted portion
 			lo = mid + 1
-		} else {
+		} else { // min value must be in the left sorted portion
 			hi = mid
 		}
 	}
