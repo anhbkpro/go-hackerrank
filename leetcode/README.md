@@ -39,6 +39,7 @@
 - Special Array With X Elements Greater Than or Equal X * [Question](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | [Source Code](binary-search/special-array-with-x-elements-greater-than-or-equal-x/main.go)
 - Kth Missing Positive Number  * [Question](https://leetcode.com/problems/kth-missing-positive-number/) | [Source Code](binary-search/kth-missing-positive-number/main.go)
 - Check If N and Its Double Exist  * [Question](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Source Code](binary-search/check-if-n-and-its-double-exist/main.go)
+- Arranging Coins  * [Question](https://leetcode.com/problems/arranging-coins/) | [Source Code](binary-search/arranging-coins/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
