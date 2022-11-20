@@ -28,3 +28,16 @@ func findKthPositive(arr []int, k int) int {
 	}
 	return 0
 }
+
+func findKthPositiveDiscuss(arr []int, k int) int {
+	lo, hi := 0, len(arr)
+	for lo < hi {
+		m := (lo + hi) >> 1
+		if arr[m]-1-m < k {
+			lo = m + 1
+		} else {
+			hi = m
+		}
+	}
+	return lo + k
+}
