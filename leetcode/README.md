@@ -41,6 +41,7 @@
 - Check If N and Its Double Exist * [Question](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Source Code](binary-search/check-if-n-and-its-double-exist/main.go)
 - Arranging Coins * [Question](https://leetcode.com/problems/arranging-coins/) | [Source Code](binary-search/arranging-coins/main.go)
 - Fair Candy Swap * [Question](https://leetcode.com/problems/fair-candy-swap/) | [Source Code](binary-search/fair-candy-swap/main.go)
+- Evaluate Boolean Binary Tree * [Question](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | [Source Code](binary-search/evaluate-boolean-binary-tree/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
