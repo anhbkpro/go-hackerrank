@@ -15,6 +15,8 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+//Runtime: 11 ms, faster than 91.23% of Go online submissions for Evaluate Boolean Binary Tree.
+//Memory Usage: 6.4 MB, less than 80.70% of Go online submissions for Evaluate Boolean Binary Tree.
 func evaluateTree(root *TreeNode) bool {
 	if root.Val <= 1 {
 		return root.Val == 1
