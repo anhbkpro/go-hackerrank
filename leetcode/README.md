@@ -42,6 +42,7 @@
 - Arranging Coins * [Question](https://leetcode.com/problems/arranging-coins/) | [Source Code](binary-search/arranging-coins/main.go)
 - Fair Candy Swap * [Question](https://leetcode.com/problems/fair-candy-swap/) | [Source Code](binary-search/fair-candy-swap/main.go)
 - Evaluate Boolean Binary Tree * [Question](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | [Source Code](binary-search/evaluate-boolean-binary-tree/main.go)
+- Intersection of Three Sorted Arrays * [Question](https://leetcode.com/problems/intersection-of-three-sorted-arrays/) | [Source Code](binary-search/intersection-of-three-sorted-arrays/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
