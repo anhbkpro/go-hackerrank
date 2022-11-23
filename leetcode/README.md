@@ -43,6 +43,7 @@
 - Fair Candy Swap * [Question](https://leetcode.com/problems/fair-candy-swap/) | [Source Code](binary-search/fair-candy-swap/main.go)
 - Evaluate Boolean Binary Tree * [Question](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | [Source Code](binary-search/evaluate-boolean-binary-tree/main.go)
 - Intersection of Three Sorted Arrays * [Question](https://leetcode.com/problems/intersection-of-three-sorted-arrays/) | [Source Code](binary-search/intersection-of-three-sorted-arrays/main.go)
+- Split Array Largest Sum *** [Question](https://leetcode.com/problems/split-array-largest-sum/) | [Source Code](binary-search/split-array-largest-sum/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
