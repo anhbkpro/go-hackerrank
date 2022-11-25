@@ -46,6 +46,7 @@
 - Split Array Largest Sum *** [Question](https://leetcode.com/problems/split-array-largest-sum/) | [Source Code](binary-search/split-array-largest-sum/main.go)
 - Divide Chocolate *** [Question](https://leetcode.com/problems/divide-chocolate/) | [Source Code](binary-search/divide-chocolate/main.go)
 - Minimum Number of Days to Make m Bouquets ** [Question](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | [Source Code](binary-search/minimum-number-of-days-to-make-m-bouquets/main.go)
+- Find Smallest Common Element in All Rows ** [Question](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/) | [Source Code](binary-search/find-the-smallest-divisor-given-a-threshold/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
