@@ -2,8 +2,8 @@ package koko_eating_bananas
 
 import "math"
 
-//Runtime: 52 ms, faster than 85.84% of Go online submissions for Koko Eating Bananas.
-//Memory Usage: 6.6 MB, less than 95.58% of Go online submissions for Koko Eating Bananas.
+//Runtime: 47 ms, faster than 90.83% of Go online submissions for Koko Eating Bananas.
+//Memory Usage: 6.6 MB, less than 96.33% of Go online submissions for Koko Eating Bananas.
 func minEatingSpeed(piles []int, h int) int {
 	l, r := 1, max(piles) // slowest speed is 1 banana per hour
 	for l < r {
@@ -20,14 +20,7 @@ func minEatingSpeed(piles []int, h int) int {
 func feasible(piles []int, H, m int) bool {
 	totalHours := 0 // Hours take to eat all bananas at speed m.
 	for _, p := range piles {
-		//totalHours += (p + m - 1) / m // totalHours += (p+m-1)/m equal to totalHours += Math.ceil(p/m)
-		totalHours += p / m
-		if p%m != 0 {
-			totalHours++
-		}
-		//if totalHours > H {
-		//	return false
-		//}
+		totalHours += (p + m - 1) / m
 	}
 	return totalHours <= H
 }
