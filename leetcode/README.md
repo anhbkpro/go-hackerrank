@@ -43,6 +43,7 @@
 - Fair Candy Swap * [Question](https://leetcode.com/problems/fair-candy-swap/) | [Source Code](binary-search/fair-candy-swap/main.go)
 - Evaluate Boolean Binary Tree * [Question](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | [Source Code](binary-search/evaluate-boolean-binary-tree/main.go)
 - Intersection of Three Sorted Arrays * [Question](https://leetcode.com/problems/intersection-of-three-sorted-arrays/) | [Source Code](binary-search/intersection-of-three-sorted-arrays/main.go)
+- Koko Eating Bananas ** [Question](https://leetcode.com/problems/koko-eating-bananas/) | [Source Code](binary-search/koko-eating-bananas/main.go)
 - Split Array Largest Sum *** [Question](https://leetcode.com/problems/split-array-largest-sum/) | [Source Code](binary-search/split-array-largest-sum/main.go)
 - Divide Chocolate *** [Question](https://leetcode.com/problems/divide-chocolate/) | [Source Code](binary-search/divide-chocolate/main.go)
 - Minimum Number of Days to Make m Bouquets ** [Question](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | [Source Code](binary-search/minimum-number-of-days-to-make-m-bouquets/main.go)
