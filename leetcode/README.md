@@ -51,6 +51,7 @@
 - Find the Smallest Divisor Given a Threshold ** [Question](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/) | [Source Code](binary-search/find-the-smallest-divisor-given-a-threshold/main.go)
 - Find Smallest Common Element in All Rows ** [Question](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/) | [Source Code](binary-search/find-smallest-common-element-in-all-rows/main.go)
 - Minimized Maximum of Products Distributed to Any Store ** [Question](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) | [Source Code](binary-search/minimized-maximum-of-products-distributed-to-any-store/main.go)
+- Cutting Ribbons ** [Question](https://leetcode.com/problems/cutting-ribbons/) | [Source Code](binary-search/cutting-ribbons/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
