@@ -48,7 +48,8 @@
 - Divide Chocolate *** [Question](https://leetcode.com/problems/divide-chocolate/) | [Source Code](binary-search/divide-chocolate/main.go)
 - Minimum Number of Days to Make m Bouquets ** [Question](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | [Source Code](binary-search/minimum-number-of-days-to-make-m-bouquets/main.go)
 - Find the Smallest Divisor Given a Threshold ** [Question](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/) | [Source Code](binary-search/find-the-smallest-divisor-given-a-threshold/main.go)
-- Find Smallest Common Element in All Rows ** [Question](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/) | [Source Code](binary-search/find-the-smallest-divisor-given-a-threshold/main.go)
+- Find Smallest Common Element in All Rows ** [Question](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/) | [Source Code](binary-search/find-smallest-common-element-in-all-rows/main.go)
+- Minimized Maximum of Products Distributed to Any Store ** [Question](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) | [Source Code](binary-search/minimized-maximum-of-products-distributed-to-any-store/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
