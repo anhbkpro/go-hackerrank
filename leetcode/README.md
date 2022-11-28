@@ -42,6 +42,7 @@
 - Arranging Coins * [Question](https://leetcode.com/problems/arranging-coins/) | [Source Code](binary-search/arranging-coins/main.go)
 - Fair Candy Swap * [Question](https://leetcode.com/problems/fair-candy-swap/) | [Source Code](binary-search/fair-candy-swap/main.go)
 - Evaluate Boolean Binary Tree * [Question](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | [Source Code](binary-search/evaluate-boolean-binary-tree/main.go)
+- The K Weakest Rows in a Matrix * [Question](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/) | [Source Code](binary-search/the-k-weakest-rows-in-a-matrix/main.go)
 - Intersection of Three Sorted Arrays * [Question](https://leetcode.com/problems/intersection-of-three-sorted-arrays/) | [Source Code](binary-search/intersection-of-three-sorted-arrays/main.go)
 - Capacity To Ship Packages Within D Days ** [Question](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [Source Code](binary-search/capacity-to-ship-packages-within-d-days/main.go)
 - Koko Eating Bananas ** [Question](https://leetcode.com/problems/koko-eating-bananas/) | [Source Code](binary-search/koko-eating-bananas/main.go)
