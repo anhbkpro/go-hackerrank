@@ -16,10 +16,6 @@ func (s *queue) front() int {
 	return (*s)[0]
 }
 
-func (s *queue) top() int {
-	return (*s)[len(*s)-1]
-}
-
 // HitCounter Runtime: 0 ms, faster than 100.00% of Go online submissions for Design Hit Counter.
 //Memory Usage: 2.3 MB, less than 67.21% of Go online submissions for Design Hit Counter.
 type HitCounter struct {
