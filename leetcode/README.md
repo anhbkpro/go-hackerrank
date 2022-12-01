@@ -61,6 +61,7 @@
 - Find First and Last Position of Element in Sorted Array ** [Question](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Source Code](binary-search/find-first-and-last-position-of-element-in-sorted-array/main.go)
 - Longest Increasing Subsequence ** [Question](https://leetcode.com/problems/longest-increasing-subsequence/) | [Source Code](binary-search/longest-increasing-subsequence/main.go)
 - Design Hit Counter ** [Question](https://leetcode.com/problems/design-hit-counter/) | [Source Code](binary-search/design-hit-counter/main.go)
+- Logger Rate Limiter * [Question](https://leetcode.com/problems/logger-rate-limiter/) | [Source Code](binary-search/logger-rate-limiter/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
