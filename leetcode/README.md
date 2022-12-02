@@ -63,6 +63,7 @@
 - Design Hit Counter ** [Question](https://leetcode.com/problems/design-hit-counter/) | [Source Code](binary-search/design-hit-counter/main.go)
 - Logger Rate Limiter * [Question](https://leetcode.com/problems/logger-rate-limiter/) | [Source Code](binary-search/logger-rate-limiter/main.go)
 - Minimum Time to Complete Trips ** [Question](https://leetcode.com/problems/minimum-time-to-complete-trips/) | [Source Code](binary-search/minimum-time-to-complete-trips/main.go)
+- My Calendar I ** [Question](https://leetcode.com/problems/my-calendar-i/) | [Source Code](binary-search/my-calendar-i/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
