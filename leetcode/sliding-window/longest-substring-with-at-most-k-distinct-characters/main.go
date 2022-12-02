@@ -2,6 +2,8 @@ package longest_substring_with_at_most_k_distinct_characters
 
 import "math"
 
+// LongestKSubstr Runtime: 8 ms, faster than 82.86% of Go online submissions for Longest Substring with At Most K Distinct Characters.
+//Memory Usage: 3.2 MB, less than 8.57% of Go online submissions for Longest Substring with At Most K Distinct Characters.
 func LongestKSubstr(s string, k int) int {
 	l, r, max := 0, 0, 0
 	freqWindow := make(map[string]int)
