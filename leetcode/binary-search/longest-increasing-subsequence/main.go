@@ -1,7 +1,11 @@
 package longest_increasing_subsequence
 
-//Runtime: 8 ms, faster than 93.37% of Go online submissions for Longest Increasing Subsequence.
-//Memory Usage: 3.6 MB, less than 95.15% of Go online submissions for Longest Increasing Subsequence.
+//	Dynamic Programming:
+//		Runtime: 71 ms, faster than 48.37% of Go online submissions for Longest Increasing Subsequence.
+//		Memory Usage: 3.8 MB, less than 39.85% of Go online submissions for Longest Increasing Subsequence.
+//	Binary Search:
+//		Runtime: 5 ms, faster than 97.49% of Go online submissions for Longest Increasing Subsequence.
+//		Memory Usage: 3.6 MB, less than 64.91% of Go online submissions for Longest Increasing Subsequence.
 func lengthOfLIS(nums []int) int {
 	sub := make([]int, 0)
 	sub = append(sub, nums[0])
