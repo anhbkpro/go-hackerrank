@@ -2,6 +2,8 @@ package longest_substring_with_at_most_two_distinct_characters
 
 import "math"
 
+// LengthOfLongestSubstringTwoDistinct Runtime: 141 ms, faster than 22.50% of Go online submissions for Longest Substring with At Most Two Distinct Characters.
+//Memory Usage: 6.6 MB, less than 17.50% of Go online submissions for Longest Substring with At Most Two Distinct Characters.
 func LengthOfLongestSubstringTwoDistinct(s string) int {
 	l, r, max := 0, 0, 0
 	freqWindow := make(map[string]int)
@@ -24,6 +26,8 @@ func LengthOfLongestSubstringTwoDistinct(s string) int {
 	return max
 }
 
+// LengthOfLongestSubstringTwoDistinctV2 Runtime: 136 ms, faster than 25.00% of Go online submissions for Longest Substring with At Most Two Distinct Characters.
+//Memory Usage: 6.7 MB, less than 15.00% of Go online submissions for Longest Substring with At Most Two Distinct Characters.
 func LengthOfLongestSubstringTwoDistinctV2(s string) int {
 	l, max := 0, 0
 	freqWindow := make(map[string]int)
