@@ -16,7 +16,7 @@ func Test_longestCommonSubsequence(t *testing.T) {
 		want int
 	}{
 		{
-			name: "3",
+			name: "one string is a substring of other",
 			args: args{
 				text1: "abcde",
 				text2: "ace",
@@ -24,7 +24,7 @@ func Test_longestCommonSubsequence(t *testing.T) {
 			want: 3,
 		},
 		{
-			name: "3",
+			name: "2 strings exactly match strings",
 			args: args{
 				text1: "ace",
 				text2: "ace",
@@ -32,7 +32,7 @@ func Test_longestCommonSubsequence(t *testing.T) {
 			want: 3,
 		},
 		{
-			name: "0",
+			name: "no common letters",
 			args: args{
 				text1: "abc",
 				text2: "def",
