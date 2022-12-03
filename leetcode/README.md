@@ -88,6 +88,7 @@
 - Jump Game ** - [Question](https://leetcode.com/problems/jump-game/) | [Source Code](dynamic-programming/jump-game/main.go)
 - Longest Palindromic Substring ** - [Question](https://leetcode.com/problems/longest-palindromic-substring/) | [Source Code](dynamic-programming/longest-palindromic-substring/main.go)
 - Longest String Chain ** - [Question](https://leetcode.com/problems/longest-string-chain/) | [Source Code](dynamic-programming/longest-string-chain/main.go)
+- Palindromic Substrings ** - [Question](https://leetcode.com/problems/palindromic-substrings/) | [Source Code](dynamic-programming/palindromic-substrings/main.go)
 
 ## Linked List
 - Delete the Middle Node of a Linked List ** - [Question](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | [Source Code](linked-list/delete-the-middle-node-of-a-linked-list/main.go)
