@@ -1,18 +1,18 @@
 package single_row_keyboard
 
 func calculateTime(keyboard string, word string) int {
-	idx := make(map[rune]int)
-	for i, r := range []rune(keyboard) {
-		idx[r] = i
+	keyIndices := make(map[rune]int, 26)
+	for i, c := range []rune(keyboard) {
+		keyIndices[c-'a'] = i
 	}
 
-	time := 0
 	prev := 0
-	for _, r := range []rune(word) {
-		time += abs(idx[r], prev)
-		prev = idx[r]
+	result := 0
+	for _, c := range []rune(word) {
+		result += abs(keyIndices[c-'a'], prev)
+		prev = keyIndices[c-'a']
 	}
-	return time
+	return result
 }
 
 func abs(a, b int) int {
