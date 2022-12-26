@@ -3,7 +3,7 @@ package single_row_keyboard
 func calculateTime(keyboard string, word string) int {
 	keyIndices := make(map[rune]int, 26)
 	for i, c := range []rune(keyboard) {
-		keyIndices[c-'a'] = i
+		keyIndices[c-'a'] = i // actually `keyIndices[c] = i` is enough
 	}
 
 	prev := 0
