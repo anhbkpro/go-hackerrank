@@ -154,6 +154,7 @@
 - Find the K-Beauty of a Number * - [Question](https://leetcode.com/problems/find-the-k-beauty-of-a-number/) | [Source Code](sliding-window/find-the-k-beauty-of-a-number/main.go)
 - Count Number of Nice Subarrays ** - [Question](https://leetcode.com/problems/count-number-of-nice-subarrays/) | [Source Code](sliding-window/count-number-of-nice-subarrays/main.go)
 - Minimum Number of Flips to Make the Binary String Alternating ** - [Question](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/) | [Source Code](sliding-window/minimum-number-of-flips-to-make-the-binary-string-alternating/main.go)
+- Sequential Digits ** - [Question](https://leetcode.com/problems/sequential-digits) | [Source Code](sliding-window/sequential-digits/main.go)
 
 ## Study Plan
 ### Algorithm I
