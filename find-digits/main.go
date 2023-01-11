@@ -18,9 +18,8 @@ import (
 
 func findDigits(n int32) int32 {
 	nStr := fmt.Sprint(n)
-	runes := []rune(nStr)
 	divisorNum := int32(0)
-	for _, num := range runes {
+	for _, num := range nStr {
 		divisor, err := strconv.Atoi(string(num))
 		if err != nil || divisor == 0 {
 			continue
