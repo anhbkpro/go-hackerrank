@@ -8,7 +8,7 @@ func calculateTime(keyboard string, word string) int {
 
 	prev := 0
 	result := 0
-	for _, c := range []rune(word) {
+	for _, c := range word {
 		result += abs(keyIndices[c-'a'], prev)
 		prev = keyIndices[c-'a']
 	}
