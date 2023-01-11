@@ -66,6 +66,7 @@
 - My Calendar I ** [Question](https://leetcode.com/problems/my-calendar-i/) | [Source Code](binary-search/my-calendar-i/main.go)
 - Maximum Length of Repeated Subarray ** [Question](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Source Code](binary-search/maximum-length-of-repeated-subarray/main.go)
 - Heaters ** [Question](https://leetcode.com/problems/heaters/) | [Source Code](binary-search/heaters/main.go)
+- Maximum Distance Between a Pair of Values ** [Question](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/) | [Source Code](binary-search/maximum-distance-between-a-pair-of-values/main.go)
 
 ## Bucket Sort
 - Top K Frequent Elements ** [Question](https://leetcode.com/problems/top-k-frequent-elements/) | [Source Code](bucket-sort/top-k-frequent-elements/main.go)
