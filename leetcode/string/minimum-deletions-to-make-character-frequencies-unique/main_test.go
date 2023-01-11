@@ -6,7 +6,7 @@ import (
 )
 
 func TestMinDeletions(t *testing.T) {
-	assert.Equal(t, 2, MinDeletions("aaabbbcc"))
-	assert.Equal(t, 2, MinDeletions("ceabaacb"))
-	assert.Equal(t, 0, MinDeletions("aab"))
+	assert.Equal(t, 2, MinDeletionsDiscuss("aaabbbcc"))
+	assert.Equal(t, 2, MinDeletionsDiscuss("ceabaacb"))
+	assert.Equal(t, 0, MinDeletionsDiscuss("aab"))
 }

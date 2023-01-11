@@ -34,3 +34,20 @@ func MinDeletions(s string) int {
 	}
 	return toBeDeleted
 }
+
+func MinDeletionsDiscuss(s string) int {
+	cnt := make([]int, 26)
+	res := 0
+	used := make(map[int]bool)
+	for i := 0; i < len(s); i++ {
+		cnt[s[i]-97]++
+	}
+	for i := 0; i < 26; i++ {
+		for cnt[i] > 0 && used[cnt[i]] {
+			cnt[i]-- // delete characters until we find unused count
+			res++
+		}
+		used[cnt[i]] = true
+	}
+	return res
+}
